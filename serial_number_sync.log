@@ -1,0 +1,292 @@
+2025-09-24 14:58:51,466 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-24 14:58:51,606 - INFO - Found 50 items requiring serial numbers: ['AA-HR-CGS', 'AA-NV-DE2', 'AA-SC', 'AA-SC-BC', 'AA-SC-GPS', 'AA-VP-Q10F', 'AG-MG1S', 'AGP12', 'AGRAS-GEN-15A', 'AGRAS-O4-RELAY', 'AGRAS-SC3', 'AGRAS-T10', 'AGRAS-T100', 'AGRAS-T100-P1', 'AGRAS-T100-P2', 'AGRAS-T100-P3', 'AGRAS-T100-P4', 'AGRAS-T10-BAT9K5', 'AGRAS-T10-CHG3K2', 'AGRAS-T10-SET1', 'AGRAS-T10-SPREAD', 'AGRAS-T16', 'AGRAS-T16-BAT', 'AGRAS-T16-BC', 'AGRAS-T25', 'AGRAS-T25P', 'AGRAS-T25-P1', 'AGRAS-T25-P3', 'AGRAS-T25-P4', 'AGRAS-T25P-P1', 'AGRAS-T25P-P2', 'AGRAS-T30', 'AGRAS-T30-BAT29K', 'AGRAS-T30-CGC7K2', 'AGRAS-T30-SET1', 'AGRAS-T30-SPREAD', 'AGRAS-T40', 'AGRAS-T40-CGC7K2', 'AGRAS-T40-P1', 'AGRAS-T40-P2', 'AGRAS-T40-P8', 'AGRAS-T50', 'AGRAS-T50-P1', 'AGRAS-T50-P13', 'AGRAS-T50-P3', 'AGRAS-T50-P4', 'AGRAS-T50-P5', 'AGREMO-CPS', 'AGREMO-FTI', 'AGT20']
+2025-09-24 14:58:51,606 - INFO - Processing SAP item: AA-HR-CGS
+2025-09-24 14:58:51,699 - INFO - package: mysql.connector.plugins
+2025-09-24 14:58:51,699 - INFO - plugin_name: mysql_native_password
+2025-09-24 14:58:51,700 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 14:58:52,123 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-HR-CGS
+2025-09-24 14:58:52,123 - INFO - Processing SAP item: AA-NV-DE2
+2025-09-24 14:58:52,634 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-NV-DE2
+2025-09-24 14:58:52,634 - INFO - Processing SAP item: AA-SC
+2025-09-24 14:58:53,148 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC
+2025-09-24 14:58:53,148 - INFO - Processing SAP item: AA-SC-BC
+2025-09-24 14:58:53,651 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC-BC
+2025-09-24 14:58:53,651 - INFO - Processing SAP item: AA-SC-GPS
+2025-09-24 14:58:54,161 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC-GPS
+2025-09-24 14:58:54,162 - INFO - Processing SAP item: AA-VP-Q10F
+2025-09-24 14:58:54,669 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-VP-Q10F
+2025-09-24 14:58:54,670 - INFO - Processing SAP item: AG-MG1S
+2025-09-24 14:58:55,713 - INFO - ✅ Updated serial_number requirement for product_id 1436 (SAP: AG-MG1S)
+2025-09-24 14:58:55,799 - INFO - Processing SAP item: AGP12
+2025-09-24 14:58:56,827 - INFO - ✅ Created serial_number requirement for product_id 1437 (SAP: AGP12)
+2025-09-24 14:58:56,918 - INFO - Processing SAP item: AGRAS-GEN-15A
+2025-09-24 14:58:57,434 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-GEN-15A
+2025-09-24 14:58:57,434 - INFO - Processing SAP item: AGRAS-O4-RELAY
+2025-09-24 14:58:58,427 - INFO - ✅ Updated serial_number requirement for product_id 4123 (SAP: AGRAS-O4-RELAY)
+2025-09-24 14:58:58,515 - INFO - Processing SAP item: AGRAS-SC3
+2025-09-24 14:58:59,552 - INFO - ✅ Updated serial_number requirement for product_id 2242 (SAP: AGRAS-SC3)
+2025-09-24 14:58:59,642 - INFO - Processing SAP item: AGRAS-T10
+2025-09-24 14:59:00,650 - INFO - ✅ Updated serial_number requirement for product_id 2170 (SAP: AGRAS-T10)
+2025-09-24 14:59:00,746 - INFO - Processing SAP item: AGRAS-T100
+2025-09-24 14:59:01,769 - INFO - ✅ Updated serial_number requirement for product_id 4113 (SAP: AGRAS-T100)
+2025-09-24 14:59:01,851 - INFO - Processing SAP item: AGRAS-T100-P1
+2025-09-24 14:59:02,910 - INFO - ✅ Updated serial_number requirement for product_id 4114 (SAP: AGRAS-T100-P1)
+2025-09-24 14:59:03,000 - INFO - Processing SAP item: AGRAS-T100-P2
+2025-09-24 14:59:04,073 - INFO - ✅ Updated serial_number requirement for product_id 4115 (SAP: AGRAS-T100-P2)
+2025-09-24 14:59:04,164 - INFO - Processing SAP item: AGRAS-T100-P3
+2025-09-24 14:59:05,229 - INFO - ✅ Updated serial_number requirement for product_id 4116 (SAP: AGRAS-T100-P3)
+2025-09-24 14:59:05,314 - INFO - Processing SAP item: AGRAS-T100-P4
+2025-09-24 14:59:06,317 - INFO - ✅ Updated serial_number requirement for product_id 4117 (SAP: AGRAS-T100-P4)
+2025-09-24 14:59:06,405 - INFO - Processing SAP item: AGRAS-T10-BAT9K5
+2025-09-24 14:59:07,417 - INFO - ✅ Updated serial_number requirement for product_id 2171 (SAP: AGRAS-T10-BAT9K5)
+2025-09-24 14:59:07,500 - INFO - Processing SAP item: AGRAS-T10-CHG3K2
+2025-09-24 14:59:08,506 - INFO - ✅ Updated serial_number requirement for product_id 2172 (SAP: AGRAS-T10-CHG3K2)
+2025-09-24 14:59:08,599 - INFO - Processing SAP item: AGRAS-T10-SET1
+2025-09-24 14:59:09,647 - INFO - ✅ Updated serial_number requirement for product_id 2173 (SAP: AGRAS-T10-SET1)
+2025-09-24 14:59:09,744 - INFO - Processing SAP item: AGRAS-T10-SPREAD
+2025-09-24 14:59:10,776 - INFO - ✅ Updated serial_number requirement for product_id 2174 (SAP: AGRAS-T10-SPREAD)
+2025-09-24 14:59:10,867 - INFO - Processing SAP item: AGRAS-T16
+2025-09-24 14:59:11,921 - INFO - ✅ Created serial_number requirement for product_id 1540 (SAP: AGRAS-T16)
+2025-09-24 14:59:12,010 - INFO - Processing SAP item: AGRAS-T16-BAT
+2025-09-24 14:59:13,059 - INFO - ✅ Created serial_number requirement for product_id 1541 (SAP: AGRAS-T16-BAT)
+2025-09-24 14:59:13,141 - INFO - Processing SAP item: AGRAS-T16-BC
+2025-09-24 14:59:14,153 - INFO - ✅ Created serial_number requirement for product_id 1542 (SAP: AGRAS-T16-BC)
+2025-09-24 14:59:14,234 - INFO - Processing SAP item: AGRAS-T25
+2025-09-24 14:59:15,290 - INFO - ✅ Updated serial_number requirement for product_id 3524 (SAP: AGRAS-T25)
+2025-09-24 14:59:15,381 - INFO - Processing SAP item: AGRAS-T25P
+2025-09-24 14:59:16,435 - INFO - ✅ Updated serial_number requirement for product_id 4119 (SAP: AGRAS-T25P)
+2025-09-24 14:59:16,525 - INFO - Processing SAP item: AGRAS-T25-P1
+2025-09-24 14:59:17,574 - INFO - ✅ Updated serial_number requirement for product_id 3532 (SAP: AGRAS-T25-P1)
+2025-09-24 14:59:17,664 - INFO - Processing SAP item: AGRAS-T25-P3
+2025-09-24 14:59:18,712 - INFO - ✅ Updated serial_number requirement for product_id 3534 (SAP: AGRAS-T25-P3)
+2025-09-24 14:59:18,797 - INFO - Processing SAP item: AGRAS-T25-P4
+2025-09-24 14:59:19,322 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-T25-P4
+2025-09-24 14:59:19,322 - INFO - Processing SAP item: AGRAS-T25P-P1
+2025-09-24 14:59:20,334 - INFO - ✅ Updated serial_number requirement for product_id 4120 (SAP: AGRAS-T25P-P1)
+2025-09-24 14:59:20,422 - INFO - Processing SAP item: AGRAS-T25P-P2
+2025-09-24 14:59:21,455 - INFO - ✅ Updated serial_number requirement for product_id 4121 (SAP: AGRAS-T25P-P2)
+2025-09-24 14:59:21,543 - INFO - Processing SAP item: AGRAS-T30
+2025-09-24 14:59:22,552 - INFO - ✅ Updated serial_number requirement for product_id 2175 (SAP: AGRAS-T30)
+2025-09-24 14:59:22,640 - INFO - Processing SAP item: AGRAS-T30-BAT29K
+2025-09-24 14:59:23,675 - INFO - ✅ Updated serial_number requirement for product_id 2176 (SAP: AGRAS-T30-BAT29K)
+2025-09-24 14:59:23,760 - INFO - Processing SAP item: AGRAS-T30-CGC7K2
+2025-09-24 14:59:24,785 - INFO - ✅ Updated serial_number requirement for product_id 2177 (SAP: AGRAS-T30-CGC7K2)
+2025-09-24 14:59:24,870 - INFO - Processing SAP item: AGRAS-T30-SET1
+2025-09-24 14:59:25,864 - INFO - ✅ Updated serial_number requirement for product_id 2178 (SAP: AGRAS-T30-SET1)
+2025-09-24 14:59:25,954 - INFO - Processing SAP item: AGRAS-T30-SPREAD
+2025-09-24 14:59:26,995 - INFO - ✅ Updated serial_number requirement for product_id 2179 (SAP: AGRAS-T30-SPREAD)
+2025-09-24 14:59:27,088 - INFO - Processing SAP item: AGRAS-T40
+2025-09-24 14:59:28,105 - INFO - ✅ Updated serial_number requirement for product_id 2750 (SAP: AGRAS-T40)
+2025-09-24 14:59:28,196 - INFO - Processing SAP item: AGRAS-T40-CGC7K2
+2025-09-24 14:59:29,226 - INFO - ✅ Created serial_number requirement for product_id 3838 (SAP: AGRAS-T40-CGC7K2)
+2025-09-24 14:59:29,311 - INFO - Processing SAP item: AGRAS-T40-P1
+2025-09-24 14:59:30,358 - INFO - ✅ Updated serial_number requirement for product_id 2755 (SAP: AGRAS-T40-P1)
+2025-09-24 14:59:30,449 - INFO - Processing SAP item: AGRAS-T40-P2
+2025-09-24 14:59:31,479 - INFO - ✅ Updated serial_number requirement for product_id 2756 (SAP: AGRAS-T40-P2)
+2025-09-24 14:59:31,576 - INFO - Processing SAP item: AGRAS-T40-P8
+2025-09-24 14:59:32,615 - INFO - ✅ Updated serial_number requirement for product_id 3531 (SAP: AGRAS-T40-P8)
+2025-09-24 14:59:32,705 - INFO - Processing SAP item: AGRAS-T50
+2025-09-24 14:59:33,715 - INFO - ✅ Updated serial_number requirement for product_id 3525 (SAP: AGRAS-T50)
+2025-09-24 14:59:33,804 - INFO - Processing SAP item: AGRAS-T50-P1
+2025-09-24 14:59:34,837 - INFO - ✅ Updated serial_number requirement for product_id 3526 (SAP: AGRAS-T50-P1)
+2025-09-24 14:59:34,939 - INFO - Processing SAP item: AGRAS-T50-P13
+2025-09-24 14:59:35,455 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-T50-P13
+2025-09-24 14:59:35,456 - INFO - Processing SAP item: AGRAS-T50-P3
+2025-09-24 14:59:36,480 - INFO - ✅ Updated serial_number requirement for product_id 3536 (SAP: AGRAS-T50-P3)
+2025-09-24 14:59:36,572 - INFO - Processing SAP item: AGRAS-T50-P4
+2025-09-24 14:59:37,589 - INFO - ✅ Updated serial_number requirement for product_id 3537 (SAP: AGRAS-T50-P4)
+2025-09-24 14:59:37,675 - INFO - Processing SAP item: AGRAS-T50-P5
+2025-09-24 14:59:38,728 - INFO - ✅ Updated serial_number requirement for product_id 3545 (SAP: AGRAS-T50-P5)
+2025-09-24 14:59:38,817 - INFO - Processing SAP item: AGREMO-CPS
+2025-09-24 14:59:39,848 - INFO - ✅ Updated serial_number requirement for product_id 2913 (SAP: AGREMO-CPS)
+2025-09-24 14:59:39,935 - INFO - Processing SAP item: AGREMO-FTI
+2025-09-24 14:59:40,951 - INFO - ✅ Created serial_number requirement for product_id 2965 (SAP: AGREMO-FTI)
+2025-09-24 14:59:41,042 - INFO - Processing SAP item: AGT20
+2025-09-24 14:59:42,052 - INFO - ✅ Updated serial_number requirement for product_id 2001 (SAP: AGT20)
+2025-09-24 14:59:42,144 - INFO - 🎯 Serial number sync completed: 41 successful, 0 errors, 9 not found
+2025-09-24 15:14:42,354 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-24 15:14:42,475 - INFO - Found 50 items requiring serial numbers: ['AA-HR-CGS', 'AA-NV-DE2', 'AA-SC', 'AA-SC-BC', 'AA-SC-GPS', 'AA-VP-Q10F', 'AG-MG1S', 'AGP12', 'AGRAS-GEN-15A', 'AGRAS-O4-RELAY', 'AGRAS-SC3', 'AGRAS-T10', 'AGRAS-T100', 'AGRAS-T100-P1', 'AGRAS-T100-P2', 'AGRAS-T100-P3', 'AGRAS-T100-P4', 'AGRAS-T10-BAT9K5', 'AGRAS-T10-CHG3K2', 'AGRAS-T10-SET1', 'AGRAS-T10-SPREAD', 'AGRAS-T16', 'AGRAS-T16-BAT', 'AGRAS-T16-BC', 'AGRAS-T25', 'AGRAS-T25P', 'AGRAS-T25-P1', 'AGRAS-T25-P3', 'AGRAS-T25-P4', 'AGRAS-T25P-P1', 'AGRAS-T25P-P2', 'AGRAS-T30', 'AGRAS-T30-BAT29K', 'AGRAS-T30-CGC7K2', 'AGRAS-T30-SET1', 'AGRAS-T30-SPREAD', 'AGRAS-T40', 'AGRAS-T40-CGC7K2', 'AGRAS-T40-P1', 'AGRAS-T40-P2', 'AGRAS-T40-P8', 'AGRAS-T50', 'AGRAS-T50-P1', 'AGRAS-T50-P13', 'AGRAS-T50-P3', 'AGRAS-T50-P4', 'AGRAS-T50-P5', 'AGREMO-CPS', 'AGREMO-FTI', 'AGT20']
+2025-09-24 15:14:42,475 - INFO - Processing SAP item: AA-HR-CGS
+2025-09-24 15:14:42,557 - INFO - package: mysql.connector.plugins
+2025-09-24 15:14:42,557 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:14:42,558 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:14:42,993 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-HR-CGS
+2025-09-24 15:14:42,993 - INFO - Processing SAP item: AA-NV-DE2
+2025-09-24 15:14:43,520 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-NV-DE2
+2025-09-24 15:14:43,520 - INFO - Processing SAP item: AA-SC
+2025-09-24 15:14:44,067 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC
+2025-09-24 15:14:44,068 - INFO - Processing SAP item: AA-SC-BC
+2025-09-24 15:14:44,586 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC-BC
+2025-09-24 15:14:44,586 - INFO - Processing SAP item: AA-SC-GPS
+2025-09-24 15:14:45,095 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC-GPS
+2025-09-24 15:14:45,095 - INFO - Processing SAP item: AA-VP-Q10F
+2025-09-24 15:14:45,625 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-VP-Q10F
+2025-09-24 15:14:45,625 - INFO - Processing SAP item: AG-MG1S
+2025-09-24 15:14:46,679 - INFO - ✅ Updated serial_number requirement for product_id 1436 (SAP: AG-MG1S)
+2025-09-24 15:14:46,768 - INFO - Processing SAP item: AGP12
+2025-09-24 15:14:47,826 - INFO - ✅ Updated serial_number requirement for product_id 1437 (SAP: AGP12)
+2025-09-24 15:14:47,910 - INFO - Processing SAP item: AGRAS-GEN-15A
+2025-09-24 15:14:48,429 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-GEN-15A
+2025-09-24 15:14:48,430 - INFO - Processing SAP item: AGRAS-O4-RELAY
+2025-09-24 15:14:49,457 - INFO - ✅ Updated serial_number requirement for product_id 4123 (SAP: AGRAS-O4-RELAY)
+2025-09-24 15:14:49,540 - INFO - Processing SAP item: AGRAS-SC3
+2025-09-24 15:14:50,587 - INFO - ✅ Updated serial_number requirement for product_id 2242 (SAP: AGRAS-SC3)
+2025-09-24 15:14:50,674 - INFO - Processing SAP item: AGRAS-T10
+2025-09-24 15:14:51,732 - INFO - ✅ Updated serial_number requirement for product_id 2170 (SAP: AGRAS-T10)
+2025-09-24 15:14:51,822 - INFO - Processing SAP item: AGRAS-T100
+2025-09-24 15:14:52,873 - INFO - ✅ Updated serial_number requirement for product_id 4113 (SAP: AGRAS-T100)
+2025-09-24 15:14:52,955 - INFO - Processing SAP item: AGRAS-T100-P1
+2025-09-24 15:14:53,990 - INFO - ✅ Updated serial_number requirement for product_id 4114 (SAP: AGRAS-T100-P1)
+2025-09-24 15:14:54,082 - INFO - Processing SAP item: AGRAS-T100-P2
+2025-09-24 15:14:55,135 - INFO - ✅ Updated serial_number requirement for product_id 4115 (SAP: AGRAS-T100-P2)
+2025-09-24 15:14:55,225 - INFO - Processing SAP item: AGRAS-T100-P3
+2025-09-24 15:14:56,266 - INFO - ✅ Updated serial_number requirement for product_id 4116 (SAP: AGRAS-T100-P3)
+2025-09-24 15:14:56,357 - INFO - Processing SAP item: AGRAS-T100-P4
+2025-09-24 15:14:57,419 - INFO - ✅ Updated serial_number requirement for product_id 4117 (SAP: AGRAS-T100-P4)
+2025-09-24 15:14:57,508 - INFO - Processing SAP item: AGRAS-T10-BAT9K5
+2025-09-24 15:14:58,554 - INFO - ✅ Updated serial_number requirement for product_id 2171 (SAP: AGRAS-T10-BAT9K5)
+2025-09-24 15:14:58,640 - INFO - Processing SAP item: AGRAS-T10-CHG3K2
+2025-09-24 15:14:59,689 - INFO - ✅ Updated serial_number requirement for product_id 2172 (SAP: AGRAS-T10-CHG3K2)
+2025-09-24 15:14:59,781 - INFO - Processing SAP item: AGRAS-T10-SET1
+2025-09-24 15:15:00,830 - INFO - ✅ Updated serial_number requirement for product_id 2173 (SAP: AGRAS-T10-SET1)
+2025-09-24 15:15:00,919 - INFO - Processing SAP item: AGRAS-T10-SPREAD
+2025-09-24 15:15:01,956 - INFO - ✅ Updated serial_number requirement for product_id 2174 (SAP: AGRAS-T10-SPREAD)
+2025-09-24 15:15:02,041 - INFO - Processing SAP item: AGRAS-T16
+2025-09-24 15:15:03,085 - INFO - ✅ Updated serial_number requirement for product_id 1540 (SAP: AGRAS-T16)
+2025-09-24 15:15:03,172 - INFO - Processing SAP item: AGRAS-T16-BAT
+2025-09-24 15:15:04,226 - INFO - ✅ Updated serial_number requirement for product_id 1541 (SAP: AGRAS-T16-BAT)
+2025-09-24 15:15:04,325 - INFO - Processing SAP item: AGRAS-T16-BC
+2025-09-24 15:15:05,383 - INFO - ✅ Updated serial_number requirement for product_id 1542 (SAP: AGRAS-T16-BC)
+2025-09-24 15:15:05,472 - INFO - Processing SAP item: AGRAS-T25
+2025-09-24 15:15:06,530 - INFO - ✅ Updated serial_number requirement for product_id 3524 (SAP: AGRAS-T25)
+2025-09-24 15:15:06,624 - INFO - Processing SAP item: AGRAS-T25P
+2025-09-24 15:15:07,680 - INFO - ✅ Updated serial_number requirement for product_id 4119 (SAP: AGRAS-T25P)
+2025-09-24 15:15:07,768 - INFO - Processing SAP item: AGRAS-T25-P1
+2025-09-24 15:15:08,829 - INFO - ✅ Updated serial_number requirement for product_id 3532 (SAP: AGRAS-T25-P1)
+2025-09-24 15:15:08,920 - INFO - Processing SAP item: AGRAS-T25-P3
+2025-09-24 15:15:09,970 - INFO - ✅ Updated serial_number requirement for product_id 3534 (SAP: AGRAS-T25-P3)
+2025-09-24 15:15:10,070 - INFO - Processing SAP item: AGRAS-T25-P4
+2025-09-24 15:15:10,595 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-T25-P4
+2025-09-24 15:15:10,595 - INFO - Processing SAP item: AGRAS-T25P-P1
+2025-09-24 15:15:11,646 - INFO - ✅ Updated serial_number requirement for product_id 4120 (SAP: AGRAS-T25P-P1)
+2025-09-24 15:15:11,735 - INFO - Processing SAP item: AGRAS-T25P-P2
+2025-09-24 15:15:12,787 - INFO - ✅ Updated serial_number requirement for product_id 4121 (SAP: AGRAS-T25P-P2)
+2025-09-24 15:15:12,880 - INFO - Processing SAP item: AGRAS-T30
+2025-09-24 15:15:13,930 - INFO - ✅ Updated serial_number requirement for product_id 2175 (SAP: AGRAS-T30)
+2025-09-24 15:15:14,021 - INFO - Processing SAP item: AGRAS-T30-BAT29K
+2025-09-24 15:15:15,058 - INFO - ✅ Updated serial_number requirement for product_id 2176 (SAP: AGRAS-T30-BAT29K)
+2025-09-24 15:15:15,149 - INFO - Processing SAP item: AGRAS-T30-CGC7K2
+2025-09-24 15:15:16,188 - INFO - ✅ Updated serial_number requirement for product_id 2177 (SAP: AGRAS-T30-CGC7K2)
+2025-09-24 15:15:16,277 - INFO - Processing SAP item: AGRAS-T30-SET1
+2025-09-24 15:15:17,325 - INFO - ✅ Updated serial_number requirement for product_id 2178 (SAP: AGRAS-T30-SET1)
+2025-09-24 15:15:17,435 - INFO - Processing SAP item: AGRAS-T30-SPREAD
+2025-09-24 15:15:18,483 - INFO - ✅ Updated serial_number requirement for product_id 2179 (SAP: AGRAS-T30-SPREAD)
+2025-09-24 15:15:18,573 - INFO - Processing SAP item: AGRAS-T40
+2025-09-24 15:15:19,639 - INFO - ✅ Updated serial_number requirement for product_id 2750 (SAP: AGRAS-T40)
+2025-09-24 15:15:19,731 - INFO - Processing SAP item: AGRAS-T40-CGC7K2
+2025-09-24 15:15:20,830 - INFO - ✅ Updated serial_number requirement for product_id 3838 (SAP: AGRAS-T40-CGC7K2)
+2025-09-24 15:15:20,926 - INFO - Processing SAP item: AGRAS-T40-P1
+2025-09-24 15:15:22,001 - INFO - ✅ Updated serial_number requirement for product_id 2755 (SAP: AGRAS-T40-P1)
+2025-09-24 15:15:22,094 - INFO - Processing SAP item: AGRAS-T40-P2
+2025-09-24 15:15:23,130 - INFO - ✅ Updated serial_number requirement for product_id 2756 (SAP: AGRAS-T40-P2)
+2025-09-24 15:15:23,220 - INFO - Processing SAP item: AGRAS-T40-P8
+2025-09-24 15:15:24,267 - INFO - ✅ Updated serial_number requirement for product_id 3531 (SAP: AGRAS-T40-P8)
+2025-09-24 15:15:24,360 - INFO - Processing SAP item: AGRAS-T50
+2025-09-24 15:15:25,398 - INFO - ✅ Updated serial_number requirement for product_id 3525 (SAP: AGRAS-T50)
+2025-09-24 15:15:25,490 - INFO - Processing SAP item: AGRAS-T50-P1
+2025-09-24 15:15:26,526 - INFO - ✅ Updated serial_number requirement for product_id 3526 (SAP: AGRAS-T50-P1)
+2025-09-24 15:15:26,623 - INFO - Processing SAP item: AGRAS-T50-P13
+2025-09-24 15:15:27,147 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-T50-P13
+2025-09-24 15:15:27,147 - INFO - Processing SAP item: AGRAS-T50-P3
+2025-09-24 15:15:28,203 - INFO - ✅ Updated serial_number requirement for product_id 3536 (SAP: AGRAS-T50-P3)
+2025-09-24 15:15:28,295 - INFO - Processing SAP item: AGRAS-T50-P4
+2025-09-24 15:15:29,329 - INFO - ✅ Updated serial_number requirement for product_id 3537 (SAP: AGRAS-T50-P4)
+2025-09-24 15:15:29,418 - INFO - Processing SAP item: AGRAS-T50-P5
+2025-09-24 15:15:30,460 - INFO - ✅ Updated serial_number requirement for product_id 3545 (SAP: AGRAS-T50-P5)
+2025-09-24 15:15:30,578 - INFO - Processing SAP item: AGREMO-CPS
+2025-09-24 15:15:31,612 - INFO - ✅ Updated serial_number requirement for product_id 2913 (SAP: AGREMO-CPS)
+2025-09-24 15:15:31,703 - INFO - Processing SAP item: AGREMO-FTI
+2025-09-24 15:15:32,727 - INFO - ✅ Updated serial_number requirement for product_id 2965 (SAP: AGREMO-FTI)
+2025-09-24 15:15:32,814 - INFO - Processing SAP item: AGT20
+2025-09-24 15:15:33,830 - INFO - ✅ Updated serial_number requirement for product_id 2001 (SAP: AGT20)
+2025-09-24 15:15:33,922 - INFO - 🎯 Serial number sync completed: 41 successful, 0 errors, 9 not found
+2025-09-25 10:20:51,096 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 10:20:51,553 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 10:20:51,624 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a46a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 10:20:51,624 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b00e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 10:20:51,624 - WARNING - No serial number items found or query failed
+2025-09-25 10:20:51,624 - INFO - No serial number items found to sync
+2025-09-25 10:20:51,624 - WARNING - No serial number items found or query failed
+2025-09-25 10:20:51,624 - INFO - No serial number items found to sync
+2025-09-25 16:11:03,980 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:11:04,233 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108512510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:11:04,233 - WARNING - No serial number items found or query failed
+2025-09-25 16:11:04,233 - INFO - No serial number items found to sync
+2025-09-25 16:11:06,962 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:11:06,971 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10641e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:11:06,971 - WARNING - No serial number items found or query failed
+2025-09-25 16:11:06,971 - INFO - No serial number items found to sync
+2025-09-25 16:26:04,527 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:26:04,565 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b15a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:26:04,565 - WARNING - No serial number items found or query failed
+2025-09-25 16:26:04,565 - INFO - No serial number items found to sync
+2025-09-25 16:26:07,193 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:26:07,200 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a94a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:26:07,200 - WARNING - No serial number items found or query failed
+2025-09-25 16:26:07,200 - INFO - No serial number items found to sync
+2025-09-25 16:41:05,730 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:41:05,754 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106df6510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:41:05,754 - WARNING - No serial number items found or query failed
+2025-09-25 16:41:05,754 - INFO - No serial number items found to sync
+2025-09-25 16:41:07,390 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:41:07,397 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x109342510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:41:07,397 - WARNING - No serial number items found or query failed
+2025-09-25 16:41:07,397 - INFO - No serial number items found to sync
+2025-09-25 16:56:06,874 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:56:06,898 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10654a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:56:06,898 - WARNING - No serial number items found or query failed
+2025-09-25 16:56:06,898 - INFO - No serial number items found to sync
+2025-09-25 16:56:08,528 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 16:56:08,536 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1082d6510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 16:56:08,536 - WARNING - No serial number items found or query failed
+2025-09-25 16:56:08,536 - INFO - No serial number items found to sync
+2025-09-25 17:11:07,792 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:11:07,829 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10adda510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:11:07,829 - WARNING - No serial number items found or query failed
+2025-09-25 17:11:07,829 - INFO - No serial number items found to sync
+2025-09-25 17:11:08,671 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:11:08,680 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106a42510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:11:08,680 - WARNING - No serial number items found or query failed
+2025-09-25 17:11:08,680 - INFO - No serial number items found to sync
+2025-09-25 17:26:08,927 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:26:08,955 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10878a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:26:08,955 - WARNING - No serial number items found or query failed
+2025-09-25 17:26:08,955 - INFO - No serial number items found to sync
+2025-09-25 17:26:09,706 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:26:09,715 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1087ce510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:26:09,715 - WARNING - No serial number items found or query failed
+2025-09-25 17:26:09,715 - INFO - No serial number items found to sync
+2025-09-25 17:41:10,019 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:41:10,049 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108b42510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:41:10,049 - WARNING - No serial number items found or query failed
+2025-09-25 17:41:10,049 - INFO - No serial number items found to sync
+2025-09-25 17:41:10,673 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:41:10,680 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ac4e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:41:10,680 - WARNING - No serial number items found or query failed
+2025-09-25 17:41:10,680 - INFO - No serial number items found to sync
+2025-09-25 17:56:10,297 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:56:10,338 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ab4a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:56:10,338 - WARNING - No serial number items found or query failed
+2025-09-25 17:56:10,338 - INFO - No serial number items found to sync
+2025-09-25 17:56:10,888 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 17:56:10,895 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a6ba510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 17:56:10,895 - WARNING - No serial number items found or query failed
+2025-09-25 17:56:10,895 - INFO - No serial number items found to sync
+2025-09-25 18:11:11,362 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:11:11,388 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106fb6510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:11:11,388 - WARNING - No serial number items found or query failed
+2025-09-25 18:11:11,388 - INFO - No serial number items found to sync
+2025-09-25 18:11:11,395 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:11:11,402 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b34a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:11:11,403 - WARNING - No serial number items found or query failed
+2025-09-25 18:11:11,403 - INFO - No serial number items found to sync

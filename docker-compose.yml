@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  sap-sync:
+    build: .
+    ports:
+      - "9000:9000"
+    environment:
+      # SAP B1 Configuration
+      - SQL_PROXY_URL=${SQL_PROXY_URL}
+
+      # MySQL Configuration
+      - MYSQL_HOST=${MYSQL_HOST}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+
+      # Web UI Authentication
+      - WEB_USERNAME=${WEB_USERNAME:-admin}
+      - WEB_PASSWORD=${WEB_PASSWORD:-d1sapsync2024}
+      - FLASK_SECRET_KEY=${FLASK_SECRET_KEY}
+
+      # Sync Configuration
+      - BATCH_SIZE=${BATCH_SIZE:-50}
+
+      # Background Job Settings
+      - BARCODE_SYNC_ENABLED=${BARCODE_SYNC_ENABLED:-true}
+      - BARCODE_SYNC_AUTO_START=${BARCODE_SYNC_AUTO_START:-true}
+      - BARCODE_SYNC_INTERVAL=${BARCODE_SYNC_INTERVAL:-300}
+      - BARCODE_SYNC_AUTO_RESTART=${BARCODE_SYNC_AUTO_RESTART:-true}
+      - BARCODE_SYNC_RESTART_DELAY=${BARCODE_SYNC_RESTART_DELAY:-60}
+      - BARCODE_SYNC_MAX_RESTARTS=${BARCODE_SYNC_MAX_RESTARTS:-5}
+
+      # Serial Number Sync Settings (if applicable)
+      - SERIAL_NUMBER_SYNC_ENABLED=${SERIAL_NUMBER_SYNC_ENABLED:-true}
+      - SERIAL_NUMBER_SYNC_AUTO_START=${SERIAL_NUMBER_SYNC_AUTO_START:-true}
+      - SERIAL_NUMBER_SYNC_INTERVAL=${SERIAL_NUMBER_SYNC_INTERVAL:-900}
+      - SERIAL_NUMBER_SYNC_AUTO_RESTART=${SERIAL_NUMBER_SYNC_AUTO_RESTART:-true}
+      - SERIAL_NUMBER_SYNC_RESTART_DELAY=${SERIAL_NUMBER_SYNC_RESTART_DELAY:-60}
+      - SERIAL_NUMBER_SYNC_MAX_RESTARTS=${SERIAL_NUMBER_SYNC_MAX_RESTARTS:-5}
+
+      # Production Settings
+      - FLASK_ENV=production
+      - FLASK_DEBUG=false
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/api/jobs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+networks:
+  default:
+    name: sap-sync-network

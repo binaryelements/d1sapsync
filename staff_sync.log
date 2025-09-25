@@ -1,0 +1,597 @@
+2025-09-24 15:30:30,718 - INFO - 🚀 Starting staff sync process...
+2025-09-24 15:30:30,875 - INFO - Found 139 active staff members in SAP
+2025-09-24 15:30:30,966 - INFO - package: mysql.connector.plugins
+2025-09-24 15:30:30,966 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:30:30,966 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:30:31,176 - WARNING - Invalid staff ID: -1, skipping
+2025-09-24 15:30:31,393 - INFO - ✅ Updated staff: Isaac Jackson (ID: 1)
+2025-09-24 15:30:31,483 - INFO - ✅ Updated staff: Daniel Perry | A00009 (ID: 29)
+2025-09-24 15:30:31,572 - INFO - ✅ Updated staff: Joshua Foo | A00047 (ID: 60)
+2025-09-24 15:30:31,659 - INFO - ✅ Updated staff: Vinnie Nguyen | A00067 (ID: 77)
+2025-09-24 15:30:31,745 - INFO - ✅ Updated staff: Woei Ning Tan | A00085 (ID: 79)
+2025-09-24 15:30:31,835 - INFO - ✅ Updated staff: Online (ID: 80)
+2025-09-24 15:30:31,921 - INFO - ✅ Updated staff: eBay (ID: 81)
+2025-09-24 15:30:32,009 - INFO - ✅ Updated staff: Rental (ID: 100)
+2025-09-24 15:30:32,100 - INFO - ✅ Updated staff: Amazon (ID: 126)
+2025-09-24 15:30:32,201 - INFO - ✅ Updated staff: Anne Maglangit | OS (ID: 134)
+2025-09-24 15:30:32,286 - INFO - ✅ Updated staff: Matthew Huang | A00123 (ID: 146)
+2025-09-24 15:30:32,371 - INFO - ✅ Updated staff: Arvhee Alcayde | OS (ID: 152)
+2025-09-24 15:30:32,455 - INFO - ✅ Updated staff: Glen Miles | A00136 (ID: 154)
+2025-09-24 15:30:32,542 - INFO - ✅ Updated staff: Martin Test (ID: 158)
+2025-09-24 15:30:32,628 - INFO - ✅ Updated staff: Jennifer Japarman | A00139 (ID: 159)
+2025-09-24 15:30:32,717 - INFO - ✅ Updated staff: Jonathan Tor | A00150 (ID: 170)
+2025-09-24 15:30:32,808 - INFO - ✅ Updated staff: Bilal Wazie Billy | A00152 (ID: 172)
+2025-09-24 15:30:32,897 - INFO - ✅ Updated staff: Lachlan Mathison | A00157 (ID: 176)
+2025-09-24 15:30:32,984 - INFO - ✅ Updated staff: Jordan Marks | A00166 (ID: 179)
+2025-09-24 15:30:33,075 - INFO - ✅ Updated staff: Martin Phan | A00159 (ID: 183)
+2025-09-24 15:30:33,165 - INFO - ✅ Updated staff: Reseller (ID: 190)
+2025-09-24 15:30:33,255 - INFO - ✅ Updated staff: Joseph Nicholson | A00178 (ID: 196)
+2025-09-24 15:30:33,348 - INFO - ✅ Updated staff: Minas Sajonian | A00194 (ID: 205)
+2025-09-24 15:30:33,440 - INFO - ✅ Updated staff: Manasseh Oshiro | A00197 (ID: 207)
+2025-09-24 15:30:33,526 - INFO - ✅ Updated staff: Jeff Xuan Yu | A00204 (ID: 218)
+2025-09-24 15:30:33,616 - INFO - ✅ Updated staff: Jake Mitsel | A00309 (ID: 246)
+2025-09-24 15:30:33,704 - INFO - ✅ Updated staff: Christopher Chen | A00308 (ID: 247)
+2025-09-24 15:30:33,792 - INFO - ✅ Updated staff: David Xiang | A00312 (ID: 252)
+2025-09-24 15:30:33,880 - INFO - ✅ Updated staff: Sean Woo | A00313 (ID: 256)
+2025-09-24 15:30:33,968 - INFO - ✅ Updated staff: Galvin Lam | A00319 (ID: 259)
+2025-09-24 15:30:34,057 - INFO - ✅ Updated staff: Chea Liang | A00321 (ID: 260)
+2025-09-24 15:30:34,142 - INFO - ✅ Updated staff: Judy Zhou | A00320 (ID: 261)
+2025-09-24 15:30:34,232 - INFO - ✅ Updated staff: Kieran Chan | A00325 (ID: 264)
+2025-09-24 15:30:34,319 - INFO - ✅ Updated staff: Betty Truong | A00326 (ID: 265)
+2025-09-24 15:30:34,406 - INFO - ✅ Updated staff: Crystal Pang | A00328 (ID: 268)
+2025-09-24 15:30:34,490 - INFO - ✅ Updated staff: Rica May | OS (ID: 271)
+2025-09-24 15:30:34,576 - INFO - ✅ Updated staff: Jonnel Pansoy | OS (ID: 276)
+2025-09-24 15:30:34,666 - INFO - ✅ Updated staff: Oly Da Rocha Torres | A00333 (ID: 277)
+2025-09-24 15:30:34,759 - INFO - ✅ Updated staff: Kevin Budiman | A00336 (ID: 280)
+2025-09-24 15:30:34,849 - INFO - ✅ Updated staff: Calvin Bond | A00337 (ID: 281)
+2025-09-24 15:30:34,930 - INFO - ✅ Updated staff: Charmaine Zapata | OS (ID: 283)
+2025-09-24 15:30:35,019 - INFO - ✅ Updated staff: Amzel Matitu | OS (ID: 291)
+2025-09-24 15:30:35,106 - INFO - ✅ Updated staff: Jocelyn Maupin | OS (ID: 297)
+2025-09-24 15:30:35,194 - INFO - ✅ Updated staff: Duke Tsogmaa | A00349 (ID: 298)
+2025-09-24 15:30:35,281 - INFO - ✅ Updated staff: Jesslyn Tay | A00350 (ID: 299)
+2025-09-24 15:30:35,368 - INFO - ✅ Updated staff: James Bourke | A00353 (ID: 303)
+2025-09-24 15:30:35,450 - INFO - ✅ Updated staff: RuiQian Liang | A00354 (ID: 304)
+2025-09-24 15:30:35,537 - INFO - ✅ Updated staff: Jerry Kwon | A00358 (ID: 308)
+2025-09-24 15:30:35,634 - INFO - ✅ Updated staff: Upsell (ID: 314)
+2025-09-24 15:30:35,722 - INFO - ✅ Updated staff: Tawk (ID: 315)
+2025-09-24 15:30:35,811 - INFO - ✅ Updated staff: Aaron Ruhe | A00369 (ID: 319)
+2025-09-24 15:30:35,904 - INFO - ✅ Updated staff: Chelsey Heath | A00366 (ID: 320)
+2025-09-24 15:30:35,994 - INFO - ✅ Updated staff: Ralph Mabuan | OS (ID: 323)
+2025-09-24 15:30:36,084 - INFO - ✅ Updated staff: Rebeca Francisco | OS (ID: 324)
+2025-09-24 15:30:36,170 - INFO - ✅ Updated staff: Edward Ung | A00373 (ID: 326)
+2025-09-24 15:30:36,260 - INFO - ✅ Updated staff: Julie Ann Dimaculangan | OS (ID: 327)
+2025-09-24 15:30:36,343 - INFO - ✅ Updated staff: Jackie Lim | A00374 (ID: 329)
+2025-09-24 15:30:36,431 - INFO - ✅ Updated staff: Junnel Campita | OS (ID: 334)
+2025-09-24 15:30:36,515 - INFO - ✅ Updated staff: Benjamin Wu | A00381 (ID: 335)
+2025-09-24 15:30:36,602 - INFO - ✅ Updated staff: Gian Tiongson | A00385 (ID: 338)
+2025-09-24 15:30:36,685 - INFO - ✅ Updated staff: Desdmona Fowke | A00387 (ID: 342)
+2025-09-24 15:30:36,771 - INFO - ✅ Updated staff: Kar Hui Heng | A00389 (ID: 344)
+2025-09-24 15:30:36,862 - INFO - ✅ Updated staff: Serena Huang | A00390 (ID: 345)
+2025-09-24 15:30:36,947 - INFO - ✅ Updated staff: Mason Hull | A00158 (ID: 346)
+2025-09-24 15:30:37,036 - INFO - ✅ Updated staff: Winston Nesfield | A00394 (ID: 347)
+2025-09-24 15:30:37,128 - INFO - ✅ Updated staff: Elena Liu | A00392 (ID: 348)
+2025-09-24 15:30:37,219 - INFO - ✅ Updated staff: Matthew Parkinson | A00393 (ID: 349)
+2025-09-24 15:30:37,310 - INFO - ✅ Updated staff: Jeany Estolonio | OS (ID: 350)
+2025-09-24 15:30:37,401 - INFO - ✅ Updated staff: Thomas Ashton | A00395 (ID: 351)
+2025-09-24 15:30:37,490 - INFO - ✅ Updated staff: Thomas Delaney | A00397 (ID: 352)
+2025-09-24 15:30:37,579 - INFO - ✅ Updated staff: Sarah Lee | A00396 (ID: 353)
+2025-09-24 15:30:37,662 - INFO - ✅ Updated staff: Jihang Yao | A00403 (ID: 357)
+2025-09-24 15:30:37,750 - INFO - ✅ Updated staff: Rastin Sedighian | A00404 (ID: 359)
+2025-09-24 15:30:37,840 - INFO - ✅ Updated staff: Evalyne Duong | A00405 (ID: 360)
+2025-09-24 15:30:37,928 - INFO - ✅ Updated staff: Song Jia  | A00400 (ID: 361)
+2025-09-24 15:30:38,019 - INFO - ✅ Updated staff: Lin Jinhong | A00407 (ID: 362)
+2025-09-24 15:30:38,108 - INFO - ✅ Updated staff: Mashal Sidiqi | A00409 (ID: 365)
+2025-09-24 15:30:38,194 - INFO - ✅ Updated staff: Matthew Parker | A00410 (ID: 366)
+2025-09-24 15:30:38,284 - INFO - ✅ Updated staff: Jy Sandford | A00411 (ID: 367)
+2025-09-24 15:30:38,369 - INFO - ✅ Updated staff: Jingyi Wang | A00413 (ID: 369)
+2025-09-24 15:30:38,455 - INFO - ✅ Updated staff: Kate Damman | A00414 (ID: 370)
+2025-09-24 15:30:38,546 - INFO - ✅ Updated staff: Philipp Klopfer | A00416 (ID: 372)
+2025-09-24 15:30:38,630 - INFO - ✅ Updated staff: Julia Xiang | A00417 (ID: 373)
+2025-09-24 15:30:38,733 - INFO - ✅ Updated staff: Leonardo Di Petta | A00418 (ID: 374)
+2025-09-24 15:30:38,819 - INFO - ✅ Updated staff: Daniel Lui | A00419 (ID: 375)
+2025-09-24 15:30:38,906 - INFO - ✅ Updated staff: Danial Salmani | A00420 (ID: 376)
+2025-09-24 15:30:39,001 - INFO - ✅ Updated staff: Basit Onifade | A00421 (ID: 377)
+2025-09-24 15:30:39,089 - INFO - ✅ Updated staff: Taj Dhillon | A00422 (ID: 378)
+2025-09-24 15:30:39,178 - INFO - ✅ Updated staff: Yan Valencia | OS (ID: 379)
+2025-09-24 15:30:39,267 - INFO - ✅ Updated staff: Stephen Yu Yongxiang | A00423 (ID: 380)
+2025-09-24 15:30:39,356 - INFO - ✅ Updated staff: Anita Macchioni | A00424 (ID: 381)
+2025-09-24 15:30:39,448 - INFO - ✅ Updated staff: Samuel Moujalli | A00425 (ID: 382)
+2025-09-24 15:30:39,540 - INFO - ✅ Updated staff: Jack Windsor | A00426 (ID: 383)
+2025-09-24 15:30:39,627 - INFO - ✅ Updated staff: Evelyn Kandawasvika | A00427 (ID: 384)
+2025-09-24 15:30:39,714 - INFO - ✅ Updated staff: Thuy Linh Vu | A00428 (ID: 385)
+2025-09-24 15:30:39,807 - INFO - ✅ Updated staff: Steve Yang Weiqi | A00430 (ID: 386)
+2025-09-24 15:30:39,897 - INFO - ✅ Updated staff: Sercan Saha | A00431 (ID: 387)
+2025-09-24 15:30:39,986 - INFO - ✅ Updated staff: Ann Hoang Anh Le | A00434 (ID: 390)
+2025-09-24 15:30:40,075 - INFO - ✅ Updated staff: Gabriel Devers | A00435 (ID: 391)
+2025-09-24 15:30:40,162 - INFO - ✅ Updated staff: Dayal Sebastian | A00436 (ID: 392)
+2025-09-24 15:30:40,249 - INFO - ✅ Updated staff: Felix Hatherall | A00437 (ID: 393)
+2025-09-24 15:30:40,334 - INFO - ✅ Updated staff: Christina Yip | A00429 (ID: 394)
+2025-09-24 15:30:40,423 - INFO - ✅ Updated staff: Savira Weerakkody | A00438 (ID: 395)
+2025-09-24 15:30:40,510 - INFO - ✅ Updated staff: Lee Yusman | A00439 (ID: 396)
+2025-09-24 15:30:40,596 - INFO - ✅ Updated staff: Brayden Hongxun Zhang | A00440 (ID: 398)
+2025-09-24 15:30:40,685 - INFO - ✅ Updated staff: Sherlyn Seunghyun Lee | A00442 (ID: 399)
+2025-09-24 15:30:40,775 - INFO - ✅ Updated staff: Mitchel Ellis | A00443 (ID: 400)
+2025-09-24 15:30:40,858 - INFO - ✅ Updated staff: Tadi Chasiya | A00444 (ID: 401)
+2025-09-24 15:30:40,942 - INFO - ✅ Updated staff: Louis Gabriel Quindoza | A00445 (ID: 403)
+2025-09-24 15:30:41,030 - INFO - ✅ Updated staff: Yoannah Yee Ern Wong | A00446 (ID: 404)
+2025-09-24 15:30:41,117 - INFO - ✅ Updated staff: Ayrton Kwok | A00447 (ID: 405)
+2025-09-24 15:30:41,204 - INFO - ✅ Updated staff: Serena Zimo Qui | A00449 (ID: 407)
+2025-09-24 15:30:41,286 - INFO - ✅ Updated staff: Dray Ambrose | A00451 (ID: 409)
+2025-09-24 15:30:41,369 - INFO - ✅ Updated staff: Ryan Alexander | A00452 (ID: 410)
+2025-09-24 15:30:41,460 - INFO - ✅ Updated staff: Shakira Bayani | A00455 (ID: 413)
+2025-09-24 15:30:41,552 - INFO - ✅ Updated staff: Mahirah Khan | A00456 (ID: 414)
+2025-09-24 15:30:41,638 - INFO - ✅ Updated staff: Justin Nguyen | A00457 (ID: 415)
+2025-09-24 15:30:41,725 - INFO - ✅ Updated staff: Vasudha Krovi | A00458 (ID: 417)
+2025-09-24 15:30:41,814 - INFO - ✅ Updated staff: Terry Chong | A00459 (ID: 418)
+2025-09-24 15:30:41,900 - INFO - ✅ Updated staff: Manoj Magar | A00460 (ID: 419)
+2025-09-24 15:30:41,985 - INFO - ✅ Updated staff: Shiela Almadovar | OS (ID: 420)
+2025-09-24 15:30:42,075 - INFO - ✅ Updated staff: Arzhee Alcayde | OS (ID: 421)
+2025-09-24 15:30:42,167 - INFO - ➕ Inserted new staff: Wilson La | A00461 (ID: 422)
+2025-09-24 15:30:42,257 - INFO - ➕ Inserted new staff: Gary Tam | A00462 (ID: 423)
+2025-09-24 15:30:42,346 - INFO - ➕ Inserted new staff: Wenyu Ju | A00463 (ID: 424)
+2025-09-24 15:30:42,432 - INFO - ➕ Inserted new staff: Claire Ziyan Wang | A00464 (ID: 425)
+2025-09-24 15:30:42,522 - INFO - ➕ Inserted new staff: Sissi WenQian Chen | A00465 (ID: 426)
+2025-09-24 15:30:42,608 - INFO - ➕ Inserted new staff: Eleanor Yi Chang | A00466 (ID: 427)
+2025-09-24 15:30:42,699 - INFO - ➕ Inserted new staff: Alfred Liu | A00467 (ID: 428)
+2025-09-24 15:30:42,790 - INFO - ➕ Inserted new staff: Hannah Tea | A00468 (ID: 429)
+2025-09-24 15:30:42,877 - INFO - ➕ Inserted new staff: Philbert Zhai | A00469 (ID: 430)
+2025-09-24 15:30:42,970 - INFO - ➕ Inserted new staff: Alina Chih-Ying Lin | A00470 (ID: 431)
+2025-09-24 15:30:43,060 - INFO - ➕ Inserted new staff: Max Whish-Wilson | A00471 (ID: 432)
+2025-09-24 15:30:43,147 - INFO - ➕ Inserted new staff: Bolang Yu | A00472 (ID: 433)
+2025-09-24 15:30:43,233 - INFO - ➕ Inserted new staff: Mitchell Walden | A00473 (ID: 434)
+2025-09-24 15:30:43,321 - INFO - ➕ Inserted new staff: Suresh Thakuri | A00474 (ID: 435)
+2025-09-24 15:30:43,410 - INFO - ➕ Inserted new staff: Jolin Zhixin Fang | A00475 (ID: 436)
+2025-09-24 15:30:43,497 - INFO - ➕ Inserted new staff: Jason Zhichen Ren | A00476 (ID: 437)
+2025-09-24 15:30:43,551 - INFO - 🔽 Deactivated 9 staff members no longer in SAP
+2025-09-24 15:30:43,598 - INFO - ============================================================
+2025-09-24 15:30:43,598 - INFO - Staff Sync Summary:
+2025-09-24 15:30:43,598 - INFO - Updated ... Isaac Jackson id: 1
+2025-09-24 15:30:43,598 - INFO - Updated ... Daniel Perry | A00009 id: 29
+2025-09-24 15:30:43,598 - INFO - Updated ... Joshua Foo | A00047 id: 60
+2025-09-24 15:30:43,599 - INFO - Updated ... Vinnie Nguyen | A00067 id: 77
+2025-09-24 15:30:43,599 - INFO - Updated ... Woei Ning Tan | A00085 id: 79
+2025-09-24 15:30:43,599 - INFO - Updated ... Online id: 80
+2025-09-24 15:30:43,599 - INFO - Updated ... eBay id: 81
+2025-09-24 15:30:43,599 - INFO - Updated ... Rental id: 100
+2025-09-24 15:30:43,599 - INFO - Updated ... Amazon id: 126
+2025-09-24 15:30:43,599 - INFO - Updated ... Anne Maglangit | OS id: 134
+2025-09-24 15:30:43,599 - INFO - Updated ... Matthew Huang | A00123 id: 146
+2025-09-24 15:30:43,599 - INFO - Updated ... Arvhee Alcayde | OS id: 152
+2025-09-24 15:30:43,599 - INFO - Updated ... Glen Miles | A00136 id: 154
+2025-09-24 15:30:43,599 - INFO - Updated ... Martin Test id: 158
+2025-09-24 15:30:43,599 - INFO - Updated ... Jennifer Japarman | A00139 id: 159
+2025-09-24 15:30:43,599 - INFO - Updated ... Jonathan Tor | A00150 id: 170
+2025-09-24 15:30:43,599 - INFO - Updated ... Bilal Wazie Billy | A00152 id: 172
+2025-09-24 15:30:43,599 - INFO - Updated ... Lachlan Mathison | A00157 id: 176
+2025-09-24 15:30:43,599 - INFO - Updated ... Jordan Marks | A00166 id: 179
+2025-09-24 15:30:43,599 - INFO - Updated ... Martin Phan | A00159 id: 183
+2025-09-24 15:30:43,599 - INFO - Updated ... Reseller id: 190
+2025-09-24 15:30:43,599 - INFO - Updated ... Joseph Nicholson | A00178 id: 196
+2025-09-24 15:30:43,599 - INFO - Updated ... Minas Sajonian | A00194 id: 205
+2025-09-24 15:30:43,599 - INFO - Updated ... Manasseh Oshiro | A00197 id: 207
+2025-09-24 15:30:43,599 - INFO - Updated ... Jeff Xuan Yu | A00204 id: 218
+2025-09-24 15:30:43,599 - INFO - Updated ... Jake Mitsel | A00309 id: 246
+2025-09-24 15:30:43,599 - INFO - Updated ... Christopher Chen | A00308 id: 247
+2025-09-24 15:30:43,599 - INFO - Updated ... David Xiang | A00312 id: 252
+2025-09-24 15:30:43,599 - INFO - Updated ... Sean Woo | A00313 id: 256
+2025-09-24 15:30:43,599 - INFO - Updated ... Galvin Lam | A00319 id: 259
+2025-09-24 15:30:43,599 - INFO - Updated ... Chea Liang | A00321 id: 260
+2025-09-24 15:30:43,600 - INFO - Updated ... Judy Zhou | A00320 id: 261
+2025-09-24 15:30:43,600 - INFO - Updated ... Kieran Chan | A00325 id: 264
+2025-09-24 15:30:43,600 - INFO - Updated ... Betty Truong | A00326 id: 265
+2025-09-24 15:30:43,600 - INFO - Updated ... Crystal Pang | A00328 id: 268
+2025-09-24 15:30:43,600 - INFO - Updated ... Rica May | OS id: 271
+2025-09-24 15:30:43,600 - INFO - Updated ... Jonnel Pansoy | OS id: 276
+2025-09-24 15:30:43,600 - INFO - Updated ... Oly Da Rocha Torres | A00333 id: 277
+2025-09-24 15:30:43,600 - INFO - Updated ... Kevin Budiman | A00336 id: 280
+2025-09-24 15:30:43,600 - INFO - Updated ... Calvin Bond | A00337 id: 281
+2025-09-24 15:30:43,600 - INFO - Updated ... Charmaine Zapata | OS id: 283
+2025-09-24 15:30:43,600 - INFO - Updated ... Amzel Matitu | OS id: 291
+2025-09-24 15:30:43,600 - INFO - Updated ... Jocelyn Maupin | OS id: 297
+2025-09-24 15:30:43,600 - INFO - Updated ... Duke Tsogmaa | A00349 id: 298
+2025-09-24 15:30:43,600 - INFO - Updated ... Jesslyn Tay | A00350 id: 299
+2025-09-24 15:30:43,600 - INFO - Updated ... James Bourke | A00353 id: 303
+2025-09-24 15:30:43,600 - INFO - Updated ... RuiQian Liang | A00354 id: 304
+2025-09-24 15:30:43,600 - INFO - Updated ... Jerry Kwon | A00358 id: 308
+2025-09-24 15:30:43,600 - INFO - Updated ... Upsell id: 314
+2025-09-24 15:30:43,600 - INFO - Updated ... Tawk id: 315
+2025-09-24 15:30:43,600 - INFO - Updated ... Aaron Ruhe | A00369 id: 319
+2025-09-24 15:30:43,600 - INFO - Updated ... Chelsey Heath | A00366 id: 320
+2025-09-24 15:30:43,600 - INFO - Updated ... Ralph Mabuan | OS id: 323
+2025-09-24 15:30:43,600 - INFO - Updated ... Rebeca Francisco | OS id: 324
+2025-09-24 15:30:43,600 - INFO - Updated ... Edward Ung | A00373 id: 326
+2025-09-24 15:30:43,600 - INFO - Updated ... Julie Ann Dimaculangan | OS id: 327
+2025-09-24 15:30:43,600 - INFO - Updated ... Jackie Lim | A00374 id: 329
+2025-09-24 15:30:43,600 - INFO - Updated ... Junnel Campita | OS id: 334
+2025-09-24 15:30:43,600 - INFO - Updated ... Benjamin Wu | A00381 id: 335
+2025-09-24 15:30:43,600 - INFO - Updated ... Gian Tiongson | A00385 id: 338
+2025-09-24 15:30:43,600 - INFO - Updated ... Desdmona Fowke | A00387 id: 342
+2025-09-24 15:30:43,600 - INFO - Updated ... Kar Hui Heng | A00389 id: 344
+2025-09-24 15:30:43,600 - INFO - Updated ... Serena Huang | A00390 id: 345
+2025-09-24 15:30:43,600 - INFO - Updated ... Mason Hull | A00158 id: 346
+2025-09-24 15:30:43,600 - INFO - Updated ... Winston Nesfield | A00394 id: 347
+2025-09-24 15:30:43,600 - INFO - Updated ... Elena Liu | A00392 id: 348
+2025-09-24 15:30:43,600 - INFO - Updated ... Matthew Parkinson | A00393 id: 349
+2025-09-24 15:30:43,601 - INFO - Updated ... Jeany Estolonio | OS id: 350
+2025-09-24 15:30:43,601 - INFO - Updated ... Thomas Ashton | A00395 id: 351
+2025-09-24 15:30:43,601 - INFO - Updated ... Thomas Delaney | A00397 id: 352
+2025-09-24 15:30:43,601 - INFO - Updated ... Sarah Lee | A00396 id: 353
+2025-09-24 15:30:43,601 - INFO - Updated ... Jihang Yao | A00403 id: 357
+2025-09-24 15:30:43,601 - INFO - Updated ... Rastin Sedighian | A00404 id: 359
+2025-09-24 15:30:43,601 - INFO - Updated ... Evalyne Duong | A00405 id: 360
+2025-09-24 15:30:43,601 - INFO - Updated ... Song Jia  | A00400 id: 361
+2025-09-24 15:30:43,601 - INFO - Updated ... Lin Jinhong | A00407 id: 362
+2025-09-24 15:30:43,601 - INFO - Updated ... Mashal Sidiqi | A00409 id: 365
+2025-09-24 15:30:43,601 - INFO - Updated ... Matthew Parker | A00410 id: 366
+2025-09-24 15:30:43,601 - INFO - Updated ... Jy Sandford | A00411 id: 367
+2025-09-24 15:30:43,601 - INFO - Updated ... Jingyi Wang | A00413 id: 369
+2025-09-24 15:30:43,601 - INFO - Updated ... Kate Damman | A00414 id: 370
+2025-09-24 15:30:43,601 - INFO - Updated ... Philipp Klopfer | A00416 id: 372
+2025-09-24 15:30:43,601 - INFO - Updated ... Julia Xiang | A00417 id: 373
+2025-09-24 15:30:43,601 - INFO - Updated ... Leonardo Di Petta | A00418 id: 374
+2025-09-24 15:30:43,601 - INFO - Updated ... Daniel Lui | A00419 id: 375
+2025-09-24 15:30:43,601 - INFO - Updated ... Danial Salmani | A00420 id: 376
+2025-09-24 15:30:43,601 - INFO - Updated ... Basit Onifade | A00421 id: 377
+2025-09-24 15:30:43,601 - INFO - Updated ... Taj Dhillon | A00422 id: 378
+2025-09-24 15:30:43,601 - INFO - Updated ... Yan Valencia | OS id: 379
+2025-09-24 15:30:43,601 - INFO - Updated ... Stephen Yu Yongxiang | A00423 id: 380
+2025-09-24 15:30:43,601 - INFO - Updated ... Anita Macchioni | A00424 id: 381
+2025-09-24 15:30:43,601 - INFO - Updated ... Samuel Moujalli | A00425 id: 382
+2025-09-24 15:30:43,601 - INFO - Updated ... Jack Windsor | A00426 id: 383
+2025-09-24 15:30:43,601 - INFO - Updated ... Evelyn Kandawasvika | A00427 id: 384
+2025-09-24 15:30:43,601 - INFO - Updated ... Thuy Linh Vu | A00428 id: 385
+2025-09-24 15:30:43,601 - INFO - Updated ... Steve Yang Weiqi | A00430 id: 386
+2025-09-24 15:30:43,601 - INFO - Updated ... Sercan Saha | A00431 id: 387
+2025-09-24 15:30:43,601 - INFO - Updated ... Ann Hoang Anh Le | A00434 id: 390
+2025-09-24 15:30:43,601 - INFO - Updated ... Gabriel Devers | A00435 id: 391
+2025-09-24 15:30:43,601 - INFO - Updated ... Dayal Sebastian | A00436 id: 392
+2025-09-24 15:30:43,601 - INFO - Updated ... Felix Hatherall | A00437 id: 393
+2025-09-24 15:30:43,601 - INFO - Updated ... Christina Yip | A00429 id: 394
+2025-09-24 15:30:43,601 - INFO - Updated ... Savira Weerakkody | A00438 id: 395
+2025-09-24 15:30:43,601 - INFO - Updated ... Lee Yusman | A00439 id: 396
+2025-09-24 15:30:43,601 - INFO - Updated ... Brayden Hongxun Zhang | A00440 id: 398
+2025-09-24 15:30:43,601 - INFO - Updated ... Sherlyn Seunghyun Lee | A00442 id: 399
+2025-09-24 15:30:43,601 - INFO - Updated ... Mitchel Ellis | A00443 id: 400
+2025-09-24 15:30:43,601 - INFO - Updated ... Tadi Chasiya | A00444 id: 401
+2025-09-24 15:30:43,601 - INFO - Updated ... Louis Gabriel Quindoza | A00445 id: 403
+2025-09-24 15:30:43,601 - INFO - Updated ... Yoannah Yee Ern Wong | A00446 id: 404
+2025-09-24 15:30:43,601 - INFO - Updated ... Ayrton Kwok | A00447 id: 405
+2025-09-24 15:30:43,601 - INFO - Updated ... Serena Zimo Qui | A00449 id: 407
+2025-09-24 15:30:43,601 - INFO - Updated ... Dray Ambrose | A00451 id: 409
+2025-09-24 15:30:43,601 - INFO - Updated ... Ryan Alexander | A00452 id: 410
+2025-09-24 15:30:43,601 - INFO - Updated ... Shakira Bayani | A00455 id: 413
+2025-09-24 15:30:43,601 - INFO - Updated ... Mahirah Khan | A00456 id: 414
+2025-09-24 15:30:43,601 - INFO - Updated ... Justin Nguyen | A00457 id: 415
+2025-09-24 15:30:43,601 - INFO - Updated ... Vasudha Krovi | A00458 id: 417
+2025-09-24 15:30:43,601 - INFO - Updated ... Terry Chong | A00459 id: 418
+2025-09-24 15:30:43,601 - INFO - Updated ... Manoj Magar | A00460 id: 419
+2025-09-24 15:30:43,601 - INFO - Updated ... Shiela Almadovar | OS id: 420
+2025-09-24 15:30:43,601 - INFO - Updated ... Arzhee Alcayde | OS id: 421
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Wilson La | A00461 id: 422
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Gary Tam | A00462 id: 423
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Wenyu Ju | A00463 id: 424
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Claire Ziyan Wang | A00464 id: 425
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Sissi WenQian Chen | A00465 id: 426
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Eleanor Yi Chang | A00466 id: 427
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Alfred Liu | A00467 id: 428
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Hannah Tea | A00468 id: 429
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Philbert Zhai | A00469 id: 430
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Alina Chih-Ying Lin | A00470 id: 431
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Max Whish-Wilson | A00471 id: 432
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Bolang Yu | A00472 id: 433
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Mitchell Walden | A00473 id: 434
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Suresh Thakuri | A00474 id: 435
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Jolin Zhixin Fang | A00475 id: 436
+2025-09-24 15:30:43,601 - INFO - ---> Inserted ... Jason Zhichen Ren | A00476 id: 437
+2025-09-24 15:30:43,601 - INFO - ============================================================
+2025-09-24 15:30:43,601 - INFO - 🎯 Sync completed: 138 successful, 0 errors
+2025-09-24 15:33:15,721 - INFO - 🚀 Starting staff sync process...
+2025-09-24 15:33:15,874 - INFO - Found 139 active staff members in SAP
+2025-09-24 15:33:15,955 - INFO - package: mysql.connector.plugins
+2025-09-24 15:33:15,955 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:33:15,956 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:33:16,169 - WARNING - Invalid staff ID: -1, skipping
+2025-09-24 15:33:16,388 - INFO - ✅ Updated staff: Isaac Jackson (ID: 1)
+2025-09-24 15:33:16,475 - INFO - ✅ Updated staff: Daniel Perry | A00009 (ID: 29)
+2025-09-24 15:33:16,567 - INFO - ✅ Updated staff: Joshua Foo | A00047 (ID: 60)
+2025-09-24 15:33:16,658 - INFO - ✅ Updated staff: Vinnie Nguyen | A00067 (ID: 77)
+2025-09-24 15:33:16,742 - INFO - ✅ Updated staff: Woei Ning Tan | A00085 (ID: 79)
+2025-09-24 15:33:16,830 - INFO - ✅ Updated staff: Online (ID: 80)
+2025-09-24 15:33:16,922 - INFO - ✅ Updated staff: eBay (ID: 81)
+2025-09-24 15:33:17,008 - INFO - ✅ Updated staff: Rental (ID: 100)
+2025-09-24 15:33:17,097 - INFO - ✅ Updated staff: Amazon (ID: 126)
+2025-09-24 15:33:17,182 - INFO - ✅ Updated staff: Anne Maglangit | OS (ID: 134)
+2025-09-24 15:33:17,270 - INFO - ✅ Updated staff: Matthew Huang | A00123 (ID: 146)
+2025-09-24 15:33:17,360 - INFO - ✅ Updated staff: Arvhee Alcayde | OS (ID: 152)
+2025-09-24 15:33:17,447 - INFO - ✅ Updated staff: Glen Miles | A00136 (ID: 154)
+2025-09-24 15:33:17,534 - INFO - ✅ Updated staff: Martin Test (ID: 158)
+2025-09-24 15:33:17,619 - INFO - ✅ Updated staff: Jennifer Japarman | A00139 (ID: 159)
+2025-09-24 15:33:17,704 - INFO - ✅ Updated staff: Jonathan Tor | A00150 (ID: 170)
+2025-09-24 15:33:17,796 - INFO - ✅ Updated staff: Bilal Wazie Billy | A00152 (ID: 172)
+2025-09-24 15:33:17,881 - INFO - ✅ Updated staff: Lachlan Mathison | A00157 (ID: 176)
+2025-09-24 15:33:17,970 - INFO - ✅ Updated staff: Jordan Marks | A00166 (ID: 179)
+2025-09-24 15:33:18,062 - INFO - ✅ Updated staff: Martin Phan | A00159 (ID: 183)
+2025-09-24 15:33:18,145 - INFO - ✅ Updated staff: Reseller (ID: 190)
+2025-09-24 15:33:18,234 - INFO - ✅ Updated staff: Joseph Nicholson | A00178 (ID: 196)
+2025-09-24 15:33:18,322 - INFO - ✅ Updated staff: Minas Sajonian | A00194 (ID: 205)
+2025-09-24 15:33:18,403 - INFO - ✅ Updated staff: Manasseh Oshiro | A00197 (ID: 207)
+2025-09-24 15:33:18,492 - INFO - ✅ Updated staff: Jeff Xuan Yu | A00204 (ID: 218)
+2025-09-24 15:33:18,582 - INFO - ✅ Updated staff: Jake Mitsel | A00309 (ID: 246)
+2025-09-24 15:33:18,671 - INFO - ✅ Updated staff: Christopher Chen | A00308 (ID: 247)
+2025-09-24 15:33:18,755 - INFO - ✅ Updated staff: David Xiang | A00312 (ID: 252)
+2025-09-24 15:33:18,841 - INFO - ✅ Updated staff: Sean Woo | A00313 (ID: 256)
+2025-09-24 15:33:18,924 - INFO - ✅ Updated staff: Galvin Lam | A00319 (ID: 259)
+2025-09-24 15:33:19,014 - INFO - ✅ Updated staff: Chea Liang | A00321 (ID: 260)
+2025-09-24 15:33:19,107 - INFO - ✅ Updated staff: Judy Zhou | A00320 (ID: 261)
+2025-09-24 15:33:19,198 - INFO - ✅ Updated staff: Kieran Chan | A00325 (ID: 264)
+2025-09-24 15:33:19,290 - INFO - ✅ Updated staff: Betty Truong | A00326 (ID: 265)
+2025-09-24 15:33:19,374 - INFO - ✅ Updated staff: Crystal Pang | A00328 (ID: 268)
+2025-09-24 15:33:19,458 - INFO - ✅ Updated staff: Rica May | OS (ID: 271)
+2025-09-24 15:33:19,543 - INFO - ✅ Updated staff: Jonnel Pansoy | OS (ID: 276)
+2025-09-24 15:33:19,629 - INFO - ✅ Updated staff: Oly Da Rocha Torres | A00333 (ID: 277)
+2025-09-24 15:33:19,709 - INFO - ✅ Updated staff: Kevin Budiman | A00336 (ID: 280)
+2025-09-24 15:33:19,793 - INFO - ✅ Updated staff: Calvin Bond | A00337 (ID: 281)
+2025-09-24 15:33:19,882 - INFO - ✅ Updated staff: Charmaine Zapata | OS (ID: 283)
+2025-09-24 15:33:19,970 - INFO - ✅ Updated staff: Amzel Matitu | OS (ID: 291)
+2025-09-24 15:33:20,058 - INFO - ✅ Updated staff: Jocelyn Maupin | OS (ID: 297)
+2025-09-24 15:33:20,147 - INFO - ✅ Updated staff: Duke Tsogmaa | A00349 (ID: 298)
+2025-09-24 15:33:20,240 - INFO - ✅ Updated staff: Jesslyn Tay | A00350 (ID: 299)
+2025-09-24 15:33:20,331 - INFO - ✅ Updated staff: James Bourke | A00353 (ID: 303)
+2025-09-24 15:33:20,425 - INFO - ✅ Updated staff: RuiQian Liang | A00354 (ID: 304)
+2025-09-24 15:33:20,510 - INFO - ✅ Updated staff: Jerry Kwon | A00358 (ID: 308)
+2025-09-24 15:33:20,593 - INFO - ✅ Updated staff: Upsell (ID: 314)
+2025-09-24 15:33:20,685 - INFO - ✅ Updated staff: Tawk (ID: 315)
+2025-09-24 15:33:20,770 - INFO - ✅ Updated staff: Aaron Ruhe | A00369 (ID: 319)
+2025-09-24 15:33:20,861 - INFO - ✅ Updated staff: Chelsey Heath | A00366 (ID: 320)
+2025-09-24 15:33:20,949 - INFO - ✅ Updated staff: Ralph Mabuan | OS (ID: 323)
+2025-09-24 15:33:21,039 - INFO - ✅ Updated staff: Rebeca Francisco | OS (ID: 324)
+2025-09-24 15:33:21,125 - INFO - ✅ Updated staff: Edward Ung | A00373 (ID: 326)
+2025-09-24 15:33:21,217 - INFO - ✅ Updated staff: Julie Ann Dimaculangan | OS (ID: 327)
+2025-09-24 15:33:21,311 - INFO - ✅ Updated staff: Jackie Lim | A00374 (ID: 329)
+2025-09-24 15:33:21,401 - INFO - ✅ Updated staff: Junnel Campita | OS (ID: 334)
+2025-09-24 15:33:21,491 - INFO - ✅ Updated staff: Benjamin Wu | A00381 (ID: 335)
+2025-09-24 15:33:21,580 - INFO - ✅ Updated staff: Gian Tiongson | A00385 (ID: 338)
+2025-09-24 15:33:21,666 - INFO - ✅ Updated staff: Desdmona Fowke | A00387 (ID: 342)
+2025-09-24 15:33:21,751 - INFO - ✅ Updated staff: Kar Hui Heng | A00389 (ID: 344)
+2025-09-24 15:33:21,839 - INFO - ✅ Updated staff: Serena Huang | A00390 (ID: 345)
+2025-09-24 15:33:21,927 - INFO - ✅ Updated staff: Mason Hull | A00158 (ID: 346)
+2025-09-24 15:33:22,012 - INFO - ✅ Updated staff: Winston Nesfield | A00394 (ID: 347)
+2025-09-24 15:33:22,101 - INFO - ✅ Updated staff: Elena Liu | A00392 (ID: 348)
+2025-09-24 15:33:22,191 - INFO - ✅ Updated staff: Matthew Parkinson | A00393 (ID: 349)
+2025-09-24 15:33:22,282 - INFO - ✅ Updated staff: Jeany Estolonio | OS (ID: 350)
+2025-09-24 15:33:22,366 - INFO - ✅ Updated staff: Thomas Ashton | A00395 (ID: 351)
+2025-09-24 15:33:22,457 - INFO - ✅ Updated staff: Thomas Delaney | A00397 (ID: 352)
+2025-09-24 15:33:22,540 - INFO - ✅ Updated staff: Sarah Lee | A00396 (ID: 353)
+2025-09-24 15:33:22,628 - INFO - ✅ Updated staff: Jihang Yao | A00403 (ID: 357)
+2025-09-24 15:33:22,714 - INFO - ✅ Updated staff: Rastin Sedighian | A00404 (ID: 359)
+2025-09-24 15:33:22,797 - INFO - ✅ Updated staff: Evalyne Duong | A00405 (ID: 360)
+2025-09-24 15:33:22,888 - INFO - ✅ Updated staff: Song Jia  | A00400 (ID: 361)
+2025-09-24 15:33:22,976 - INFO - ✅ Updated staff: Lin Jinhong | A00407 (ID: 362)
+2025-09-24 15:33:23,065 - INFO - ✅ Updated staff: Mashal Sidiqi | A00409 (ID: 365)
+2025-09-24 15:33:23,156 - INFO - ✅ Updated staff: Matthew Parker | A00410 (ID: 366)
+2025-09-24 15:33:23,247 - INFO - ✅ Updated staff: Jy Sandford | A00411 (ID: 367)
+2025-09-24 15:33:23,332 - INFO - ✅ Updated staff: Jingyi Wang | A00413 (ID: 369)
+2025-09-24 15:33:23,425 - INFO - ✅ Updated staff: Kate Damman | A00414 (ID: 370)
+2025-09-24 15:33:23,515 - INFO - ✅ Updated staff: Philipp Klopfer | A00416 (ID: 372)
+2025-09-24 15:33:23,608 - INFO - ✅ Updated staff: Julia Xiang | A00417 (ID: 373)
+2025-09-24 15:33:23,701 - INFO - ✅ Updated staff: Leonardo Di Petta | A00418 (ID: 374)
+2025-09-24 15:33:23,788 - INFO - ✅ Updated staff: Daniel Lui | A00419 (ID: 375)
+2025-09-24 15:33:23,884 - INFO - ✅ Updated staff: Danial Salmani | A00420 (ID: 376)
+2025-09-24 15:33:23,974 - INFO - ✅ Updated staff: Basit Onifade | A00421 (ID: 377)
+2025-09-24 15:33:24,062 - INFO - ✅ Updated staff: Taj Dhillon | A00422 (ID: 378)
+2025-09-24 15:33:24,152 - INFO - ✅ Updated staff: Yan Valencia | OS (ID: 379)
+2025-09-24 15:33:24,240 - INFO - ✅ Updated staff: Stephen Yu Yongxiang | A00423 (ID: 380)
+2025-09-24 15:33:24,333 - INFO - ✅ Updated staff: Anita Macchioni | A00424 (ID: 381)
+2025-09-24 15:33:24,420 - INFO - ✅ Updated staff: Samuel Moujalli | A00425 (ID: 382)
+2025-09-24 15:33:24,505 - INFO - ✅ Updated staff: Jack Windsor | A00426 (ID: 383)
+2025-09-24 15:33:24,591 - INFO - ✅ Updated staff: Evelyn Kandawasvika | A00427 (ID: 384)
+2025-09-24 15:33:24,680 - INFO - ✅ Updated staff: Thuy Linh Vu | A00428 (ID: 385)
+2025-09-24 15:33:24,770 - INFO - ✅ Updated staff: Steve Yang Weiqi | A00430 (ID: 386)
+2025-09-24 15:33:24,859 - INFO - ✅ Updated staff: Sercan Saha | A00431 (ID: 387)
+2025-09-24 15:33:24,950 - INFO - ✅ Updated staff: Ann Hoang Anh Le | A00434 (ID: 390)
+2025-09-24 15:33:25,036 - INFO - ✅ Updated staff: Gabriel Devers | A00435 (ID: 391)
+2025-09-24 15:33:25,123 - INFO - ✅ Updated staff: Dayal Sebastian | A00436 (ID: 392)
+2025-09-24 15:33:25,211 - INFO - ✅ Updated staff: Felix Hatherall | A00437 (ID: 393)
+2025-09-24 15:33:25,300 - INFO - ✅ Updated staff: Christina Yip | A00429 (ID: 394)
+2025-09-24 15:33:25,390 - INFO - ✅ Updated staff: Savira Weerakkody | A00438 (ID: 395)
+2025-09-24 15:33:25,478 - INFO - ✅ Updated staff: Lee Yusman | A00439 (ID: 396)
+2025-09-24 15:33:25,565 - INFO - ✅ Updated staff: Brayden Hongxun Zhang | A00440 (ID: 398)
+2025-09-24 15:33:25,650 - INFO - ✅ Updated staff: Sherlyn Seunghyun Lee | A00442 (ID: 399)
+2025-09-24 15:33:25,735 - INFO - ✅ Updated staff: Mitchel Ellis | A00443 (ID: 400)
+2025-09-24 15:33:25,826 - INFO - ✅ Updated staff: Tadi Chasiya | A00444 (ID: 401)
+2025-09-24 15:33:25,914 - INFO - ✅ Updated staff: Louis Gabriel Quindoza | A00445 (ID: 403)
+2025-09-24 15:33:26,000 - INFO - ✅ Updated staff: Yoannah Yee Ern Wong | A00446 (ID: 404)
+2025-09-24 15:33:26,091 - INFO - ✅ Updated staff: Ayrton Kwok | A00447 (ID: 405)
+2025-09-24 15:33:26,182 - INFO - ✅ Updated staff: Serena Zimo Qui | A00449 (ID: 407)
+2025-09-24 15:33:26,272 - INFO - ✅ Updated staff: Dray Ambrose | A00451 (ID: 409)
+2025-09-24 15:33:26,358 - INFO - ✅ Updated staff: Ryan Alexander | A00452 (ID: 410)
+2025-09-24 15:33:26,449 - INFO - ✅ Updated staff: Shakira Bayani | A00455 (ID: 413)
+2025-09-24 15:33:26,537 - INFO - ✅ Updated staff: Mahirah Khan | A00456 (ID: 414)
+2025-09-24 15:33:26,626 - INFO - ✅ Updated staff: Justin Nguyen | A00457 (ID: 415)
+2025-09-24 15:33:26,714 - INFO - ✅ Updated staff: Vasudha Krovi | A00458 (ID: 417)
+2025-09-24 15:33:26,800 - INFO - ✅ Updated staff: Terry Chong | A00459 (ID: 418)
+2025-09-24 15:33:26,892 - INFO - ✅ Updated staff: Manoj Magar | A00460 (ID: 419)
+2025-09-24 15:33:26,979 - INFO - ✅ Updated staff: Shiela Almadovar | OS (ID: 420)
+2025-09-24 15:33:27,071 - INFO - ✅ Updated staff: Arzhee Alcayde | OS (ID: 421)
+2025-09-24 15:33:27,159 - INFO - ✅ Updated staff: Wilson La | A00461 (ID: 422)
+2025-09-24 15:33:27,244 - INFO - ✅ Updated staff: Gary Tam | A00462 (ID: 423)
+2025-09-24 15:33:27,331 - INFO - ✅ Updated staff: Wenyu Ju | A00463 (ID: 424)
+2025-09-24 15:33:27,412 - INFO - ✅ Updated staff: Claire Ziyan Wang | A00464 (ID: 425)
+2025-09-24 15:33:27,506 - INFO - ✅ Updated staff: Sissi WenQian Chen | A00465 (ID: 426)
+2025-09-24 15:33:27,597 - INFO - ✅ Updated staff: Eleanor Yi Chang | A00466 (ID: 427)
+2025-09-24 15:33:27,688 - INFO - ✅ Updated staff: Alfred Liu | A00467 (ID: 428)
+2025-09-24 15:33:27,779 - INFO - ✅ Updated staff: Hannah Tea | A00468 (ID: 429)
+2025-09-24 15:33:27,865 - INFO - ✅ Updated staff: Philbert Zhai | A00469 (ID: 430)
+2025-09-24 15:33:27,953 - INFO - ✅ Updated staff: Alina Chih-Ying Lin | A00470 (ID: 431)
+2025-09-24 15:33:28,043 - INFO - ✅ Updated staff: Max Whish-Wilson | A00471 (ID: 432)
+2025-09-24 15:33:28,131 - INFO - ✅ Updated staff: Bolang Yu | A00472 (ID: 433)
+2025-09-24 15:33:28,218 - INFO - ✅ Updated staff: Mitchell Walden | A00473 (ID: 434)
+2025-09-24 15:33:28,306 - INFO - ✅ Updated staff: Suresh Thakuri | A00474 (ID: 435)
+2025-09-24 15:33:28,397 - INFO - ✅ Updated staff: Jolin Zhixin Fang | A00475 (ID: 436)
+2025-09-24 15:33:28,493 - INFO - ✅ Updated staff: Jason Zhichen Ren | A00476 (ID: 437)
+2025-09-24 15:33:28,550 - INFO - 🔽 Deactivated 1 staff members no longer in SAP
+2025-09-24 15:33:28,591 - INFO - ============================================================
+2025-09-24 15:33:28,591 - INFO - Staff Sync Summary:
+2025-09-24 15:33:28,591 - INFO - Updated ... Isaac Jackson id: 1
+2025-09-24 15:33:28,591 - INFO - Updated ... Daniel Perry | A00009 id: 29
+2025-09-24 15:33:28,591 - INFO - Updated ... Joshua Foo | A00047 id: 60
+2025-09-24 15:33:28,592 - INFO - Updated ... Vinnie Nguyen | A00067 id: 77
+2025-09-24 15:33:28,592 - INFO - Updated ... Woei Ning Tan | A00085 id: 79
+2025-09-24 15:33:28,592 - INFO - Updated ... Online id: 80
+2025-09-24 15:33:28,592 - INFO - Updated ... eBay id: 81
+2025-09-24 15:33:28,592 - INFO - Updated ... Rental id: 100
+2025-09-24 15:33:28,592 - INFO - Updated ... Amazon id: 126
+2025-09-24 15:33:28,592 - INFO - Updated ... Anne Maglangit | OS id: 134
+2025-09-24 15:33:28,592 - INFO - Updated ... Matthew Huang | A00123 id: 146
+2025-09-24 15:33:28,592 - INFO - Updated ... Arvhee Alcayde | OS id: 152
+2025-09-24 15:33:28,592 - INFO - Updated ... Glen Miles | A00136 id: 154
+2025-09-24 15:33:28,592 - INFO - Updated ... Martin Test id: 158
+2025-09-24 15:33:28,592 - INFO - Updated ... Jennifer Japarman | A00139 id: 159
+2025-09-24 15:33:28,592 - INFO - Updated ... Jonathan Tor | A00150 id: 170
+2025-09-24 15:33:28,592 - INFO - Updated ... Bilal Wazie Billy | A00152 id: 172
+2025-09-24 15:33:28,592 - INFO - Updated ... Lachlan Mathison | A00157 id: 176
+2025-09-24 15:33:28,592 - INFO - Updated ... Jordan Marks | A00166 id: 179
+2025-09-24 15:33:28,592 - INFO - Updated ... Martin Phan | A00159 id: 183
+2025-09-24 15:33:28,592 - INFO - Updated ... Reseller id: 190
+2025-09-24 15:33:28,592 - INFO - Updated ... Joseph Nicholson | A00178 id: 196
+2025-09-24 15:33:28,592 - INFO - Updated ... Minas Sajonian | A00194 id: 205
+2025-09-24 15:33:28,592 - INFO - Updated ... Manasseh Oshiro | A00197 id: 207
+2025-09-24 15:33:28,592 - INFO - Updated ... Jeff Xuan Yu | A00204 id: 218
+2025-09-24 15:33:28,592 - INFO - Updated ... Jake Mitsel | A00309 id: 246
+2025-09-24 15:33:28,592 - INFO - Updated ... Christopher Chen | A00308 id: 247
+2025-09-24 15:33:28,592 - INFO - Updated ... David Xiang | A00312 id: 252
+2025-09-24 15:33:28,592 - INFO - Updated ... Sean Woo | A00313 id: 256
+2025-09-24 15:33:28,592 - INFO - Updated ... Galvin Lam | A00319 id: 259
+2025-09-24 15:33:28,592 - INFO - Updated ... Chea Liang | A00321 id: 260
+2025-09-24 15:33:28,592 - INFO - Updated ... Judy Zhou | A00320 id: 261
+2025-09-24 15:33:28,592 - INFO - Updated ... Kieran Chan | A00325 id: 264
+2025-09-24 15:33:28,592 - INFO - Updated ... Betty Truong | A00326 id: 265
+2025-09-24 15:33:28,592 - INFO - Updated ... Crystal Pang | A00328 id: 268
+2025-09-24 15:33:28,592 - INFO - Updated ... Rica May | OS id: 271
+2025-09-24 15:33:28,592 - INFO - Updated ... Jonnel Pansoy | OS id: 276
+2025-09-24 15:33:28,592 - INFO - Updated ... Oly Da Rocha Torres | A00333 id: 277
+2025-09-24 15:33:28,592 - INFO - Updated ... Kevin Budiman | A00336 id: 280
+2025-09-24 15:33:28,592 - INFO - Updated ... Calvin Bond | A00337 id: 281
+2025-09-24 15:33:28,592 - INFO - Updated ... Charmaine Zapata | OS id: 283
+2025-09-24 15:33:28,592 - INFO - Updated ... Amzel Matitu | OS id: 291
+2025-09-24 15:33:28,592 - INFO - Updated ... Jocelyn Maupin | OS id: 297
+2025-09-24 15:33:28,592 - INFO - Updated ... Duke Tsogmaa | A00349 id: 298
+2025-09-24 15:33:28,592 - INFO - Updated ... Jesslyn Tay | A00350 id: 299
+2025-09-24 15:33:28,592 - INFO - Updated ... James Bourke | A00353 id: 303
+2025-09-24 15:33:28,593 - INFO - Updated ... RuiQian Liang | A00354 id: 304
+2025-09-24 15:33:28,593 - INFO - Updated ... Jerry Kwon | A00358 id: 308
+2025-09-24 15:33:28,593 - INFO - Updated ... Upsell id: 314
+2025-09-24 15:33:28,593 - INFO - Updated ... Tawk id: 315
+2025-09-24 15:33:28,593 - INFO - Updated ... Aaron Ruhe | A00369 id: 319
+2025-09-24 15:33:28,593 - INFO - Updated ... Chelsey Heath | A00366 id: 320
+2025-09-24 15:33:28,593 - INFO - Updated ... Ralph Mabuan | OS id: 323
+2025-09-24 15:33:28,593 - INFO - Updated ... Rebeca Francisco | OS id: 324
+2025-09-24 15:33:28,593 - INFO - Updated ... Edward Ung | A00373 id: 326
+2025-09-24 15:33:28,593 - INFO - Updated ... Julie Ann Dimaculangan | OS id: 327
+2025-09-24 15:33:28,593 - INFO - Updated ... Jackie Lim | A00374 id: 329
+2025-09-24 15:33:28,593 - INFO - Updated ... Junnel Campita | OS id: 334
+2025-09-24 15:33:28,593 - INFO - Updated ... Benjamin Wu | A00381 id: 335
+2025-09-24 15:33:28,593 - INFO - Updated ... Gian Tiongson | A00385 id: 338
+2025-09-24 15:33:28,593 - INFO - Updated ... Desdmona Fowke | A00387 id: 342
+2025-09-24 15:33:28,593 - INFO - Updated ... Kar Hui Heng | A00389 id: 344
+2025-09-24 15:33:28,593 - INFO - Updated ... Serena Huang | A00390 id: 345
+2025-09-24 15:33:28,593 - INFO - Updated ... Mason Hull | A00158 id: 346
+2025-09-24 15:33:28,593 - INFO - Updated ... Winston Nesfield | A00394 id: 347
+2025-09-24 15:33:28,593 - INFO - Updated ... Elena Liu | A00392 id: 348
+2025-09-24 15:33:28,593 - INFO - Updated ... Matthew Parkinson | A00393 id: 349
+2025-09-24 15:33:28,593 - INFO - Updated ... Jeany Estolonio | OS id: 350
+2025-09-24 15:33:28,593 - INFO - Updated ... Thomas Ashton | A00395 id: 351
+2025-09-24 15:33:28,593 - INFO - Updated ... Thomas Delaney | A00397 id: 352
+2025-09-24 15:33:28,593 - INFO - Updated ... Sarah Lee | A00396 id: 353
+2025-09-24 15:33:28,593 - INFO - Updated ... Jihang Yao | A00403 id: 357
+2025-09-24 15:33:28,593 - INFO - Updated ... Rastin Sedighian | A00404 id: 359
+2025-09-24 15:33:28,593 - INFO - Updated ... Evalyne Duong | A00405 id: 360
+2025-09-24 15:33:28,593 - INFO - Updated ... Song Jia  | A00400 id: 361
+2025-09-24 15:33:28,593 - INFO - Updated ... Lin Jinhong | A00407 id: 362
+2025-09-24 15:33:28,593 - INFO - Updated ... Mashal Sidiqi | A00409 id: 365
+2025-09-24 15:33:28,593 - INFO - Updated ... Matthew Parker | A00410 id: 366
+2025-09-24 15:33:28,593 - INFO - Updated ... Jy Sandford | A00411 id: 367
+2025-09-24 15:33:28,593 - INFO - Updated ... Jingyi Wang | A00413 id: 369
+2025-09-24 15:33:28,593 - INFO - Updated ... Kate Damman | A00414 id: 370
+2025-09-24 15:33:28,593 - INFO - Updated ... Philipp Klopfer | A00416 id: 372
+2025-09-24 15:33:28,593 - INFO - Updated ... Julia Xiang | A00417 id: 373
+2025-09-24 15:33:28,593 - INFO - Updated ... Leonardo Di Petta | A00418 id: 374
+2025-09-24 15:33:28,593 - INFO - Updated ... Daniel Lui | A00419 id: 375
+2025-09-24 15:33:28,593 - INFO - Updated ... Danial Salmani | A00420 id: 376
+2025-09-24 15:33:28,593 - INFO - Updated ... Basit Onifade | A00421 id: 377
+2025-09-24 15:33:28,593 - INFO - Updated ... Taj Dhillon | A00422 id: 378
+2025-09-24 15:33:28,593 - INFO - Updated ... Yan Valencia | OS id: 379
+2025-09-24 15:33:28,593 - INFO - Updated ... Stephen Yu Yongxiang | A00423 id: 380
+2025-09-24 15:33:28,593 - INFO - Updated ... Anita Macchioni | A00424 id: 381
+2025-09-24 15:33:28,594 - INFO - Updated ... Samuel Moujalli | A00425 id: 382
+2025-09-24 15:33:28,594 - INFO - Updated ... Jack Windsor | A00426 id: 383
+2025-09-24 15:33:28,594 - INFO - Updated ... Evelyn Kandawasvika | A00427 id: 384
+2025-09-24 15:33:28,594 - INFO - Updated ... Thuy Linh Vu | A00428 id: 385
+2025-09-24 15:33:28,594 - INFO - Updated ... Steve Yang Weiqi | A00430 id: 386
+2025-09-24 15:33:28,594 - INFO - Updated ... Sercan Saha | A00431 id: 387
+2025-09-24 15:33:28,594 - INFO - Updated ... Ann Hoang Anh Le | A00434 id: 390
+2025-09-24 15:33:28,594 - INFO - Updated ... Gabriel Devers | A00435 id: 391
+2025-09-24 15:33:28,594 - INFO - Updated ... Dayal Sebastian | A00436 id: 392
+2025-09-24 15:33:28,594 - INFO - Updated ... Felix Hatherall | A00437 id: 393
+2025-09-24 15:33:28,594 - INFO - Updated ... Christina Yip | A00429 id: 394
+2025-09-24 15:33:28,594 - INFO - Updated ... Savira Weerakkody | A00438 id: 395
+2025-09-24 15:33:28,594 - INFO - Updated ... Lee Yusman | A00439 id: 396
+2025-09-24 15:33:28,594 - INFO - Updated ... Brayden Hongxun Zhang | A00440 id: 398
+2025-09-24 15:33:28,594 - INFO - Updated ... Sherlyn Seunghyun Lee | A00442 id: 399
+2025-09-24 15:33:28,594 - INFO - Updated ... Mitchel Ellis | A00443 id: 400
+2025-09-24 15:33:28,594 - INFO - Updated ... Tadi Chasiya | A00444 id: 401
+2025-09-24 15:33:28,594 - INFO - Updated ... Louis Gabriel Quindoza | A00445 id: 403
+2025-09-24 15:33:28,594 - INFO - Updated ... Yoannah Yee Ern Wong | A00446 id: 404
+2025-09-24 15:33:28,594 - INFO - Updated ... Ayrton Kwok | A00447 id: 405
+2025-09-24 15:33:28,594 - INFO - Updated ... Serena Zimo Qui | A00449 id: 407
+2025-09-24 15:33:28,594 - INFO - Updated ... Dray Ambrose | A00451 id: 409
+2025-09-24 15:33:28,594 - INFO - Updated ... Ryan Alexander | A00452 id: 410
+2025-09-24 15:33:28,594 - INFO - Updated ... Shakira Bayani | A00455 id: 413
+2025-09-24 15:33:28,594 - INFO - Updated ... Mahirah Khan | A00456 id: 414
+2025-09-24 15:33:28,594 - INFO - Updated ... Justin Nguyen | A00457 id: 415
+2025-09-24 15:33:28,594 - INFO - Updated ... Vasudha Krovi | A00458 id: 417
+2025-09-24 15:33:28,594 - INFO - Updated ... Terry Chong | A00459 id: 418
+2025-09-24 15:33:28,594 - INFO - Updated ... Manoj Magar | A00460 id: 419
+2025-09-24 15:33:28,594 - INFO - Updated ... Shiela Almadovar | OS id: 420
+2025-09-24 15:33:28,594 - INFO - Updated ... Arzhee Alcayde | OS id: 421
+2025-09-24 15:33:28,594 - INFO - Updated ... Wilson La | A00461 id: 422
+2025-09-24 15:33:28,594 - INFO - Updated ... Gary Tam | A00462 id: 423
+2025-09-24 15:33:28,594 - INFO - Updated ... Wenyu Ju | A00463 id: 424
+2025-09-24 15:33:28,594 - INFO - Updated ... Claire Ziyan Wang | A00464 id: 425
+2025-09-24 15:33:28,594 - INFO - Updated ... Sissi WenQian Chen | A00465 id: 426
+2025-09-24 15:33:28,594 - INFO - Updated ... Eleanor Yi Chang | A00466 id: 427
+2025-09-24 15:33:28,594 - INFO - Updated ... Alfred Liu | A00467 id: 428
+2025-09-24 15:33:28,594 - INFO - Updated ... Hannah Tea | A00468 id: 429
+2025-09-24 15:33:28,594 - INFO - Updated ... Philbert Zhai | A00469 id: 430
+2025-09-24 15:33:28,594 - INFO - Updated ... Alina Chih-Ying Lin | A00470 id: 431
+2025-09-24 15:33:28,594 - INFO - Updated ... Max Whish-Wilson | A00471 id: 432
+2025-09-24 15:33:28,594 - INFO - Updated ... Bolang Yu | A00472 id: 433
+2025-09-24 15:33:28,594 - INFO - Updated ... Mitchell Walden | A00473 id: 434
+2025-09-24 15:33:28,594 - INFO - Updated ... Suresh Thakuri | A00474 id: 435
+2025-09-24 15:33:28,595 - INFO - Updated ... Jolin Zhixin Fang | A00475 id: 436
+2025-09-24 15:33:28,595 - INFO - Updated ... Jason Zhichen Ren | A00476 id: 437
+2025-09-24 15:33:28,595 - INFO - ============================================================
+2025-09-24 15:33:28,595 - INFO - 🎯 Sync completed: 138 successful, 0 errors
+2025-09-24 15:50:17,142 - INFO - 🚀 Starting staff sync process...
+2025-09-24 15:50:17,318 - INFO - Found 139 active staff members in SAP
+2025-09-24 15:50:17,407 - INFO - package: mysql.connector.plugins
+2025-09-24 15:50:17,407 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:50:17,407 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:50:17,621 - WARNING - Invalid staff ID: -1, skipping
+2025-09-24 15:50:23,738 - INFO - ============================================================
+2025-09-24 15:50:23,738 - INFO - Staff Sync Summary:
+2025-09-24 15:50:23,738 - INFO - ============================================================
+2025-09-24 15:50:23,739 - INFO - 🎯 Sync completed: 0 new records created, 138 existing records left unchanged, 0 errors
+2025-09-24 15:50:29,753 - INFO - 🧪 Testing sync for staff ID: 422
+2025-09-24 15:50:29,863 - INFO - Found SAP staff: {'Active': 'Y', 'SlpCode': 422, 'SlpName': 'Wilson La | A00461'}
+2025-09-24 15:50:29,956 - INFO - package: mysql.connector.plugins
+2025-09-24 15:50:29,956 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:50:29,956 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:50:30,319 - INFO - Found existing MySQL staff: {'id': 422, 'first_name': 'Wilson', 'last_name': 'La | A00461', 'email_address': '079d1eed-0504-4246-9d75-d146c353273d@d67f5b3f-1e66-4c23-8a1f-7a02a77676a8.com', 'password': 'f58e59ea-4f08-414f-8191-2f5c2e337362', 'active_flag': 1, 'super_user_flag': 0, 'location_code': None, 'salesman_flag': 1, 'sap_import_flag': 1, 'created_at': datetime.datetime(2025, 9, 24, 14, 55, 2), 'token': None, 'token_created_at': None, 'connect_token': None, 'crm_reminder_email': None, 'is_archived': 'N', 'departments': None, 'default_department': None}
+2025-09-24 15:50:30,363 - INFO - ✅ Updated staff: Wilson La | A00461 (ID: 422)
+2025-09-24 15:50:56,964 - INFO - 🧪 Testing sync for staff ID: 422
+2025-09-24 15:50:57,064 - INFO - Found SAP staff: {'Active': 'Y', 'SlpCode': 422, 'SlpName': 'Wilson La | A00461'}
+2025-09-24 15:50:57,156 - INFO - package: mysql.connector.plugins
+2025-09-24 15:50:57,156 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:50:57,157 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:50:57,558 - INFO - ⏭️  Staff already exists in MySQL, leaving unchanged: Wilson La | A00461 (ID: 422)
