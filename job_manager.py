@@ -3,7 +3,7 @@ import threading
 import time
 import json
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from enum import Enum
 from typing import Dict, List, Optional
 import queue
@@ -17,6 +17,8 @@ class JobStatus(Enum):
     SCHEDULED = "scheduled"
 
 class JobManager:
+    # Australian Eastern Standard Time (UTC+10)
+    AEST = timezone(timedelta(hours=10))
     """
     Background job management system for running and monitoring processes
     """
@@ -195,7 +197,7 @@ class JobManager:
             for line in iter(process.stdout.readline, ''):
                 if line:
                     log_entry = {
-                        'timestamp': datetime.now().isoformat(),
+                        'timestamp': datetime.now(self.AEST).isoformat(),
                         'level': 'INFO',
                         'message': line.strip()
                     }
@@ -206,7 +208,7 @@ class JobManager:
 
             if return_code == 0:
                 log_entry = {
-                    'timestamp': datetime.now().isoformat(),
+                    'timestamp': datetime.now(self.AEST).isoformat(),
                     'level': 'INFO',
                     'message': f"✅ Job run completed successfully"
                 }
@@ -214,7 +216,7 @@ class JobManager:
                 return True
             else:
                 log_entry = {
-                    'timestamp': datetime.now().isoformat(),
+                    'timestamp': datetime.now(self.AEST).isoformat(),
                     'level': 'ERROR',
                     'message': f"❌ Job run failed with return code {return_code}"
                 }
@@ -224,7 +226,7 @@ class JobManager:
 
         except Exception as e:
             log_entry = {
-                'timestamp': datetime.now().isoformat(),
+                'timestamp': datetime.now(self.AEST).isoformat(),
                 'level': 'ERROR',
                 'message': f"❌ Job execution error: {str(e)}"
             }
@@ -306,16 +308,61 @@ class JobManager:
 
         job = self.jobs[job_id]
 
-        # Get any new logs from queue
-        while True:
+        # Get any new logs from queue (non-blocking)
+        new_logs_added = 0
+        while new_logs_added < 50:  # Limit to prevent hanging
             try:
                 log_entry = job['log_queue'].get_nowait()
                 job['logs'].append(log_entry)
+                new_logs_added += 1
             except queue.Empty:
                 break
 
-        # Return most recent logs
-        return job['logs'][-lines:] if job['logs'] else []
+        # Ensure we have logs - if empty, try reading from log file
+        if not job['logs'] and job_id in ['barcode_sync', 'serial_number_sync', 'staff_sync']:
+            try:
+                log_file = f"{job_id}.log"
+                if os.path.exists(log_file):
+                    with open(log_file, 'r') as f:
+                        file_lines = f.readlines()
+
+                    # Convert file lines to log entries
+                    for line in file_lines[-lines:]:
+                        if line.strip():
+                            # Parse log line format: "2025-09-25 22:35:06,558 - INFO - message"
+                            parts = line.strip().split(' - ', 2)
+                            if len(parts) >= 3:
+                                timestamp_str = parts[0].replace(',', '.')
+                                level = parts[1]
+                                message = parts[2]
+
+                                log_entry = {
+                                    'timestamp': timestamp_str,
+                                    'level': level,
+                                    'message': message
+                                }
+                                job['logs'].append(log_entry)
+            except Exception as e:
+                # If file reading fails, add an error log
+                log_entry = {
+                    'timestamp': datetime.now(self.AEST).isoformat(),
+                    'level': 'WARNING',
+                    'message': f"Could not read log file: {str(e)}"
+                }
+                job['logs'].append(log_entry)
+
+        # Return most recent logs, ensuring stability
+        recent_logs = job['logs'][-lines:] if job['logs'] else []
+
+        # If still no logs, provide a placeholder
+        if not recent_logs:
+            recent_logs = [{
+                'timestamp': datetime.now(self.AEST).isoformat(),
+                'level': 'INFO',
+                'message': f'Job {job_id} is configured. Logs will appear when job runs.'
+            }]
+
+        return recent_logs
 
     def _monitor_job(self, job_id: str):
         """Monitor a running job and capture its output"""
@@ -327,7 +374,7 @@ class JobManager:
             for line in iter(process.stdout.readline, ''):
                 if line:
                     log_entry = {
-                        'timestamp': datetime.now().isoformat(),
+                        'timestamp': datetime.now(self.AEST).isoformat(),
                         'level': 'INFO',
                         'message': line.strip()
                     }

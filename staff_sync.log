@@ -595,3 +595,37 @@
 2025-09-24 15:50:57,156 - INFO - plugin_name: mysql_native_password
 2025-09-24 15:50:57,157 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
 2025-09-24 15:50:57,558 - INFO - ⏭️  Staff already exists in MySQL, leaving unchanged: Wilson La | A00461 (ID: 422)
+2025-09-25 22:12:59,146 - INFO - 🚀 Starting staff sync process...
+2025-09-25 22:12:59,229 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:59,229 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:59,230 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:59,509 - INFO - 🔧 Rolling update migration for app_users - adding 2 column(s)
+2025-09-25 22:12:59,509 - INFO -    Adding column: last_sync_time to app_users
+2025-09-25 22:12:59,707 - INFO -    Adding column: sync_version to app_users
+2025-09-25 22:12:59,963 - INFO -    Adding rolling sync index to app_users
+2025-09-25 22:13:00,079 - INFO - ✅ Rolling update migration completed for app_users
+2025-09-25 22:13:00,079 - INFO - 🔄 Initializing existing records in app_users
+2025-09-25 22:13:00,448 - INFO - Found 139 active staff members in SAP
+2025-09-25 22:13:00,763 - WARNING - Invalid staff ID: -1, skipping
+2025-09-25 22:13:07,026 - INFO - ============================================================
+2025-09-25 22:13:07,027 - INFO - Staff Sync Summary:
+2025-09-25 22:13:07,027 - INFO - ============================================================
+2025-09-25 22:13:07,027 - INFO - 🎯 Sync completed: 0 new records created, 138 existing records left unchanged, 0 errors
+2025-09-25 22:13:07,400 - INFO - 📊 Staff Sync Rolling Update Analytics:
+2025-09-25 22:13:07,400 - INFO -    📦 Total items: 430
+2025-09-25 22:13:07,400 - INFO -    📈 Coverage: 0.0% (0/430)
+2025-09-25 22:13:07,400 - INFO -    🕐 Last 24h: 0.0% (0/430)
+2025-09-25 22:13:07,400 - INFO -    ⚙️  Mode: timestamp, Interval: 24h
+2025-09-25 22:34:44,140 - INFO - 🚀 Starting staff sync process...
+2025-09-25 22:34:44,340 - INFO - Found 139 active staff members in SAP
+2025-09-25 22:34:44,420 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:44,420 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:44,421 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:44,642 - WARNING - Invalid staff ID: -1, skipping
+2025-09-25 22:34:50,792 - INFO - ============================================================
+2025-09-25 22:34:50,792 - INFO - Staff Sync Summary:
+2025-09-25 22:34:50,792 - INFO - ============================================================
+2025-09-25 22:34:50,792 - INFO - 🎯 Sync completed: 0 new records created, 138 existing records left unchanged, 0 errors
+2025-09-25 22:50:38 - INFO - 🧪 Testing sync for staff ID: 4
+2025-09-25 22:50:38 - INFO - Found SAP staff: {'Active': 'N', 'SlpCode': 4, 'SlpName': 'Minh Le'}
+2025-09-25 22:50:38 - INFO - ⏭️  Staff 4 is inactive in SAP (Active: N), skipping

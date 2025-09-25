@@ -4,12 +4,24 @@ import os
 import mysql.connector
 from mysql.connector import Error
 from dotenv import load_dotenv
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import logging
 from rolling_update_utils import ensure_rolling_update_columns, update_sync_timestamp, log_rolling_update_analytics
 
 # Load environment variables
 load_dotenv()
+
+# Setup logging with AEST timezone
+AEST = timezone(timedelta(hours=10))
+
+class AESTFormatter(logging.Formatter):
+    def formatTime(self, record, datefmt=None):
+        ct = datetime.fromtimestamp(record.created, AEST)
+        if datefmt:
+            s = ct.strftime(datefmt)
+        else:
+            s = ct.strftime('%Y-%m-%d %H:%M:%S')
+        return s
 
 # Setup logging
 logging.basicConfig(
@@ -20,6 +32,10 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
+
+# Apply AEST formatter to all handlers
+for handler in logging.getLogger().handlers:
+    handler.setFormatter(AESTFormatter('%(asctime)s - %(levelname)s - %(message)s'))
 logger = logging.getLogger(__name__)
 
 def send_sql_query(query):

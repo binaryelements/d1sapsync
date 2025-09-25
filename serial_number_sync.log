@@ -290,3 +290,765 @@
 2025-09-25 18:11:11,402 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b34a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
 2025-09-25 18:11:11,403 - WARNING - No serial number items found or query failed
 2025-09-25 18:11:11,403 - INFO - No serial number items found to sync
+2025-09-25 18:26:11,818 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:26:11,818 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:26:11,855 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1071c2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:26:11,855 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106c46510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:26:11,855 - WARNING - No serial number items found or query failed
+2025-09-25 18:26:11,855 - WARNING - No serial number items found or query failed
+2025-09-25 18:26:11,855 - INFO - No serial number items found to sync
+2025-09-25 18:26:11,855 - INFO - No serial number items found to sync
+2025-09-25 18:41:12,147 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:41:12,147 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:41:12,184 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ae7e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:41:12,184 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106f5e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:41:12,184 - WARNING - No serial number items found or query failed
+2025-09-25 18:41:12,184 - WARNING - No serial number items found or query failed
+2025-09-25 18:41:12,184 - INFO - No serial number items found to sync
+2025-09-25 18:41:12,184 - INFO - No serial number items found to sync
+2025-09-25 18:56:12,482 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:56:12,482 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 18:56:12,536 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106506510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:56:12,536 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106c2a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 18:56:12,536 - WARNING - No serial number items found or query failed
+2025-09-25 18:56:12,536 - WARNING - No serial number items found or query failed
+2025-09-25 18:56:12,536 - INFO - No serial number items found to sync
+2025-09-25 18:56:12,536 - INFO - No serial number items found to sync
+2025-09-25 19:11:12,810 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:11:12,811 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:11:12,857 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106302510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:11:12,857 - WARNING - No serial number items found or query failed
+2025-09-25 19:11:12,857 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108ce2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:11:12,857 - INFO - No serial number items found to sync
+2025-09-25 19:11:12,857 - WARNING - No serial number items found or query failed
+2025-09-25 19:11:12,857 - INFO - No serial number items found to sync
+2025-09-25 19:26:13,185 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:26:13,243 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1088e6510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:26:13,243 - WARNING - No serial number items found or query failed
+2025-09-25 19:26:13,243 - INFO - No serial number items found to sync
+2025-09-25 19:26:13,245 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:26:13,275 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106f22510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:26:13,275 - WARNING - No serial number items found or query failed
+2025-09-25 19:26:13,275 - INFO - No serial number items found to sync
+2025-09-25 19:41:13,589 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:41:13,616 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:41:13,630 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b0be510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:41:13,630 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1083b6510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:41:13,630 - WARNING - No serial number items found or query failed
+2025-09-25 19:41:13,630 - INFO - No serial number items found to sync
+2025-09-25 19:41:13,630 - WARNING - No serial number items found or query failed
+2025-09-25 19:41:13,630 - INFO - No serial number items found to sync
+2025-09-25 19:56:13,856 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:56:13,884 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ae3a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:56:13,884 - WARNING - No serial number items found or query failed
+2025-09-25 19:56:13,884 - INFO - No serial number items found to sync
+2025-09-25 19:56:13,920 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 19:56:13,927 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10851a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 19:56:13,927 - WARNING - No serial number items found or query failed
+2025-09-25 19:56:13,927 - INFO - No serial number items found to sync
+2025-09-25 20:10:10,157 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:10:10,185 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10719e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:10:10,185 - WARNING - No serial number items found or query failed
+2025-09-25 20:10:10,185 - INFO - No serial number items found to sync
+2025-09-25 20:11:14,378 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:11:14,387 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106a82510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:11:14,387 - WARNING - No serial number items found or query failed
+2025-09-25 20:11:14,387 - INFO - No serial number items found to sync
+2025-09-25 20:25:10,408 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:25:10,435 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10af8a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:25:10,435 - WARNING - No serial number items found or query failed
+2025-09-25 20:25:10,435 - INFO - No serial number items found to sync
+2025-09-25 20:26:14,924 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:26:14,932 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a6e2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:26:14,932 - WARNING - No serial number items found or query failed
+2025-09-25 20:26:14,932 - INFO - No serial number items found to sync
+2025-09-25 20:40:11,139 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:40:11,172 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106652510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:40:11,172 - WARNING - No serial number items found or query failed
+2025-09-25 20:40:11,172 - INFO - No serial number items found to sync
+2025-09-25 20:41:15,858 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:41:15,866 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1072ca510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:41:15,866 - WARNING - No serial number items found or query failed
+2025-09-25 20:41:15,866 - INFO - No serial number items found to sync
+2025-09-25 20:55:12,035 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:55:12,059 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b19e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:55:12,059 - WARNING - No serial number items found or query failed
+2025-09-25 20:55:12,059 - INFO - No serial number items found to sync
+2025-09-25 20:56:16,859 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 20:56:16,867 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a362510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 20:56:16,867 - WARNING - No serial number items found or query failed
+2025-09-25 20:56:16,867 - INFO - No serial number items found to sync
+2025-09-25 21:10:13,085 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:10:13,100 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1086a2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:10:13,100 - WARNING - No serial number items found or query failed
+2025-09-25 21:10:13,101 - INFO - No serial number items found to sync
+2025-09-25 21:11:17,827 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:11:17,837 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a97a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:11:17,837 - WARNING - No serial number items found or query failed
+2025-09-25 21:11:17,837 - INFO - No serial number items found to sync
+2025-09-25 21:22:23,302 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:22:23,340 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1089d2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:22:23,340 - WARNING - No serial number items found or query failed
+2025-09-25 21:22:23,340 - INFO - No serial number items found to sync
+2025-09-25 21:22:35,750 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:22:35,759 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10903a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:22:35,759 - WARNING - No serial number items found or query failed
+2025-09-25 21:22:35,759 - INFO - No serial number items found to sync
+2025-09-25 21:25:58,484 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:25:58,484 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:25:58,502 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106206510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:25:58,502 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108f3a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:25:58,503 - WARNING - No serial number items found or query failed
+2025-09-25 21:25:58,503 - INFO - No serial number items found to sync
+2025-09-25 21:25:58,503 - WARNING - No serial number items found or query failed
+2025-09-25 21:25:58,503 - INFO - No serial number items found to sync
+2025-09-25 21:26:05,837 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:26:05,837 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:26:05,849 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ab46510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:26:05,849 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a2a2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:26:05,849 - WARNING - No serial number items found or query failed
+2025-09-25 21:26:05,849 - WARNING - No serial number items found or query failed
+2025-09-25 21:26:05,849 - INFO - No serial number items found to sync
+2025-09-25 21:26:05,849 - INFO - No serial number items found to sync
+2025-09-25 21:26:18,765 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:26:18,773 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10873a510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:26:18,773 - WARNING - No serial number items found or query failed
+2025-09-25 21:26:18,773 - INFO - No serial number items found to sync
+2025-09-25 21:41:06,777 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:41:06,777 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:41:06,816 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10adb2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:41:06,816 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1062d2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:41:06,817 - WARNING - No serial number items found or query failed
+2025-09-25 21:41:06,817 - WARNING - No serial number items found or query failed
+2025-09-25 21:41:06,817 - INFO - No serial number items found to sync
+2025-09-25 21:41:06,817 - INFO - No serial number items found to sync
+2025-09-25 21:41:19,470 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:41:19,478 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108992510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:41:19,478 - WARNING - No serial number items found or query failed
+2025-09-25 21:41:19,478 - INFO - No serial number items found to sync
+2025-09-25 21:56:07,362 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:56:07,362 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:56:07,398 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10adea510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:56:07,399 - WARNING - No serial number items found or query failed
+2025-09-25 21:56:07,399 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ad22510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:56:07,399 - INFO - No serial number items found to sync
+2025-09-25 21:56:07,399 - WARNING - No serial number items found or query failed
+2025-09-25 21:56:07,399 - INFO - No serial number items found to sync
+2025-09-25 21:56:20,017 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:56:20,024 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x107032510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:56:20,024 - WARNING - No serial number items found or query failed
+2025-09-25 21:56:20,024 - INFO - No serial number items found to sync
+2025-09-25 21:58:07,056 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:58:07,056 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:58:07,080 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1068ce510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:58:07,080 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ab66510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:58:07,080 - WARNING - No serial number items found or query failed
+2025-09-25 21:58:07,080 - INFO - No serial number items found to sync
+2025-09-25 21:58:07,080 - WARNING - No serial number items found or query failed
+2025-09-25 21:58:07,080 - INFO - No serial number items found to sync
+2025-09-25 21:58:40,892 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:58:40,892 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 21:58:40,904 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106b66510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:58:40,904 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a672510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 21:58:40,904 - WARNING - No serial number items found or query failed
+2025-09-25 21:58:40,904 - WARNING - No serial number items found or query failed
+2025-09-25 21:58:40,904 - INFO - No serial number items found to sync
+2025-09-25 21:58:40,904 - INFO - No serial number items found to sync
+2025-09-25 22:02:47,235 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:02:47,235 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:02:47,268 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10852e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:02:47,268 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a9ae510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:02:47,269 - WARNING - No serial number items found or query failed
+2025-09-25 22:02:47,269 - WARNING - No serial number items found or query failed
+2025-09-25 22:02:47,269 - INFO - No serial number items found to sync
+2025-09-25 22:02:47,269 - INFO - No serial number items found to sync
+2025-09-25 22:02:57,641 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:02:57,641 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:02:57,650 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1070c2510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:02:57,651 - WARNING - No serial number items found or query failed
+2025-09-25 22:02:57,651 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1065ee510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:02:57,651 - INFO - No serial number items found to sync
+2025-09-25 22:02:57,651 - WARNING - No serial number items found or query failed
+2025-09-25 22:02:57,651 - INFO - No serial number items found to sync
+2025-09-25 22:03:16,219 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:03:16,219 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:03:16,229 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108492510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:03:16,229 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x109262510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:03:16,229 - WARNING - No serial number items found or query failed
+2025-09-25 22:03:16,229 - WARNING - No serial number items found or query failed
+2025-09-25 22:03:16,229 - INFO - No serial number items found to sync
+2025-09-25 22:03:16,229 - INFO - No serial number items found to sync
+2025-09-25 22:03:38,864 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:03:38,864 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:03:38,874 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108ad6510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:03:38,874 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108b5e510>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:03:38,874 - WARNING - No serial number items found or query failed
+2025-09-25 22:03:38,874 - WARNING - No serial number items found or query failed
+2025-09-25 22:03:38,875 - INFO - No serial number items found to sync
+2025-09-25 22:03:38,875 - INFO - No serial number items found to sync
+2025-09-25 22:08:51,216 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:08:51,216 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:08:51,237 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108cba660>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:08:51,237 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a8ba660>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:08:51,237 - WARNING - No serial number items found or query failed
+2025-09-25 22:08:51,237 - WARNING - No serial number items found or query failed
+2025-09-25 22:08:51,237 - INFO - No serial number items found to sync
+2025-09-25 22:08:51,237 - INFO - No serial number items found to sync
+2025-09-25 22:09:34,179 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:09:34,179 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:09:34,261 - INFO - package: mysql.connector.plugins
+2025-09-25 22:09:34,261 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:09:34,261 - INFO - package: mysql.connector.plugins
+2025-09-25 22:09:34,261 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:09:34,262 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:09:34,262 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:09:34,524 - INFO - 🔧 Rolling update migration for product_associated_details - adding 2 column(s)
+2025-09-25 22:09:34,524 - INFO -    Adding column: last_sync_time to product_associated_details
+2025-09-25 22:09:34,529 - INFO - 🔧 Rolling update migration for product_associated_details - adding 2 column(s)
+2025-09-25 22:09:34,529 - INFO -    Adding column: last_sync_time to product_associated_details
+2025-09-25 22:09:34,699 - INFO -    Adding column: sync_version to product_associated_details
+2025-09-25 22:09:34,702 - ERROR - ❌ Rolling update validation failed for product_associated_details: 1060 (42S21): Duplicate column name 'last_sync_time'
+2025-09-25 22:09:34,779 - ERROR - ❌ Table structure validation failed - aborting sync
+2025-09-25 22:09:34,924 - INFO -    Adding rolling sync index to product_associated_details
+2025-09-25 22:09:35,049 - INFO - ✅ Rolling update migration completed for product_associated_details
+2025-09-25 22:09:35,049 - INFO - 🔄 Initializing existing records in product_associated_details
+2025-09-25 22:09:35,187 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10905f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:09:35,187 - WARNING - No serial number items found or query failed
+2025-09-25 22:09:35,187 - WARNING - No serial number items found or query failed
+2025-09-25 22:09:35,187 - INFO - No serial number items found to sync
+2025-09-25 22:09:47,664 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:09:47,664 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:09:47,753 - INFO - package: mysql.connector.plugins
+2025-09-25 22:09:47,754 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:09:47,754 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:09:47,754 - INFO - package: mysql.connector.plugins
+2025-09-25 22:09:47,754 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:09:47,754 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:09:48,064 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108d63230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:09:48,064 - WARNING - No serial number items found or query failed
+2025-09-25 22:09:48,064 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x107147230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:09:48,064 - WARNING - No serial number items found or query failed
+2025-09-25 22:09:48,064 - WARNING - No serial number items found or query failed
+2025-09-25 22:09:48,064 - INFO - No serial number items found to sync
+2025-09-25 22:09:48,064 - WARNING - No serial number items found or query failed
+2025-09-25 22:09:48,064 - INFO - No serial number items found to sync
+2025-09-25 22:10:18,469 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:10:18,470 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:10:18,553 - INFO - package: mysql.connector.plugins
+2025-09-25 22:10:18,553 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:10:18,553 - INFO - package: mysql.connector.plugins
+2025-09-25 22:10:18,553 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:10:18,553 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:10:18,553 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:10:18,886 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b0af230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:10:18,887 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108afb230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:10:18,887 - WARNING - No serial number items found or query failed
+2025-09-25 22:10:18,887 - WARNING - No serial number items found or query failed
+2025-09-25 22:10:18,887 - WARNING - No serial number items found or query failed
+2025-09-25 22:10:18,887 - WARNING - No serial number items found or query failed
+2025-09-25 22:10:18,887 - INFO - No serial number items found to sync
+2025-09-25 22:10:18,887 - INFO - No serial number items found to sync
+2025-09-25 22:11:20,411 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:11:20,491 - INFO - package: mysql.connector.plugins
+2025-09-25 22:11:20,491 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:11:20,492 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:11:20,795 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x109323230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:11:20,795 - WARNING - No serial number items found or query failed
+2025-09-25 22:11:20,795 - WARNING - No serial number items found or query failed
+2025-09-25 22:11:20,795 - INFO - No serial number items found to sync
+2025-09-25 22:12:03,400 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:03,402 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:03,492 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:03,492 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:03,492 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:03,492 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:03,492 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:03,492 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:03,817 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b05f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:03,817 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10937f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:03,817 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:03,817 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:03,817 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:03,817 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:03,817 - INFO - No serial number items found to sync
+2025-09-25 22:12:03,817 - INFO - No serial number items found to sync
+2025-09-25 22:12:17,915 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:17,915 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:18,004 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:18,004 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:18,005 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:18,007 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:18,007 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:18,007 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:18,318 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1084c3230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:18,318 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:18,318 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:18,318 - INFO - No serial number items found to sync
+2025-09-25 22:12:18,322 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b043230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:18,322 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:18,322 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:18,322 - INFO - No serial number items found to sync
+2025-09-25 22:12:31,364 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:31,364 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:31,454 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:31,454 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:31,455 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:31,455 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:31,455 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:31,455 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:31,781 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a88f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:31,781 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106ab7230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:31,781 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:31,781 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:31,781 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:31,781 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:31,781 - INFO - No serial number items found to sync
+2025-09-25 22:12:31,781 - INFO - No serial number items found to sync
+2025-09-25 22:12:42,853 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:42,853 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:12:42,935 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:42,936 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:42,936 - INFO - package: mysql.connector.plugins
+2025-09-25 22:12:42,936 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:12:42,936 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:42,936 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:12:43,270 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108a87230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:43,270 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108e8f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:12:43,270 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:43,270 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:43,270 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:43,270 - WARNING - No serial number items found or query failed
+2025-09-25 22:12:43,270 - INFO - No serial number items found to sync
+2025-09-25 22:12:43,270 - INFO - No serial number items found to sync
+2025-09-25 22:13:13,877 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:13:13,963 - INFO - package: mysql.connector.plugins
+2025-09-25 22:13:13,963 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:13:13,963 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:13:14,366 - INFO - Found 50 items requiring serial numbers: ['AA-HR-CGS', 'AA-NV-DE2', 'AA-SC', 'AA-SC-BC', 'AA-SC-GPS', 'AA-VP-Q10F', 'AG-MG1S', 'AGP12', 'AGRAS-GEN-15A', 'AGRAS-O4-RELAY', 'AGRAS-SC3', 'AGRAS-T10', 'AGRAS-T100', 'AGRAS-T100-P1', 'AGRAS-T100-P2', 'AGRAS-T100-P3', 'AGRAS-T100-P4', 'AGRAS-T10-BAT9K5', 'AGRAS-T10-CHG3K2', 'AGRAS-T10-SET1', 'AGRAS-T10-SPREAD', 'AGRAS-T16', 'AGRAS-T16-BAT', 'AGRAS-T16-BC', 'AGRAS-T25', 'AGRAS-T25P', 'AGRAS-T25-P1', 'AGRAS-T25-P3', 'AGRAS-T25-P4', 'AGRAS-T25P-P1', 'AGRAS-T25P-P2', 'AGRAS-T30', 'AGRAS-T30-BAT29K', 'AGRAS-T30-CGC7K2', 'AGRAS-T30-SET1', 'AGRAS-T30-SPREAD', 'AGRAS-T40', 'AGRAS-T40-CGC7K2', 'AGRAS-T40-P1', 'AGRAS-T40-P2', 'AGRAS-T40-P8', 'AGRAS-T50', 'AGRAS-T50-P1', 'AGRAS-T50-P13', 'AGRAS-T50-P3', 'AGRAS-T50-P4', 'AGRAS-T50-P5', 'AGREMO-CPS', 'AGREMO-FTI', 'AGT20']
+2025-09-25 22:13:14,366 - INFO - Processing SAP item: AA-HR-CGS
+2025-09-25 22:13:14,869 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-HR-CGS
+2025-09-25 22:13:14,869 - INFO - Processing SAP item: AA-NV-DE2
+2025-09-25 22:13:15,373 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-NV-DE2
+2025-09-25 22:13:15,373 - INFO - Processing SAP item: AA-SC
+2025-09-25 22:13:15,870 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC
+2025-09-25 22:13:15,870 - INFO - Processing SAP item: AA-SC-BC
+2025-09-25 22:13:16,365 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC-BC
+2025-09-25 22:13:16,365 - INFO - Processing SAP item: AA-SC-GPS
+2025-09-25 22:13:16,855 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-SC-GPS
+2025-09-25 22:13:16,855 - INFO - Processing SAP item: AA-VP-Q10F
+2025-09-25 22:13:17,345 - WARNING - ⚠️ Product not found in MySQL for SAP code: AA-VP-Q10F
+2025-09-25 22:13:17,345 - INFO - Processing SAP item: AG-MG1S
+2025-09-25 22:13:18,334 - INFO - ✅ Updated serial_number requirement for product_id 1436 (SAP: AG-MG1S)
+2025-09-25 22:13:18,972 - INFO - Processing SAP item: AGP12
+2025-09-25 22:13:20,182 - INFO - ✅ Updated serial_number requirement for product_id 1437 (SAP: AGP12)
+2025-09-25 22:13:20,823 - INFO - Processing SAP item: AGRAS-GEN-15A
+2025-09-25 22:13:21,344 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-GEN-15A
+2025-09-25 22:13:21,344 - INFO - Processing SAP item: AGRAS-O4-RELAY
+2025-09-25 22:13:22,352 - INFO - ✅ Updated serial_number requirement for product_id 4123 (SAP: AGRAS-O4-RELAY)
+2025-09-25 22:13:22,967 - INFO - Processing SAP item: AGRAS-SC3
+2025-09-25 22:13:24,003 - INFO - ✅ Updated serial_number requirement for product_id 2242 (SAP: AGRAS-SC3)
+2025-09-25 22:13:24,639 - INFO - Processing SAP item: AGRAS-T10
+2025-09-25 22:13:25,611 - INFO - ✅ Updated serial_number requirement for product_id 2170 (SAP: AGRAS-T10)
+2025-09-25 22:13:26,435 - INFO - Processing SAP item: AGRAS-T100
+2025-09-25 22:13:27,456 - INFO - ✅ Updated serial_number requirement for product_id 4113 (SAP: AGRAS-T100)
+2025-09-25 22:13:28,096 - INFO - Processing SAP item: AGRAS-T100-P1
+2025-09-25 22:13:29,103 - INFO - ✅ Updated serial_number requirement for product_id 4114 (SAP: AGRAS-T100-P1)
+2025-09-25 22:13:29,772 - INFO - Processing SAP item: AGRAS-T100-P2
+2025-09-25 22:13:30,772 - INFO - ✅ Updated serial_number requirement for product_id 4115 (SAP: AGRAS-T100-P2)
+2025-09-25 22:13:31,401 - INFO - Processing SAP item: AGRAS-T100-P3
+2025-09-25 22:13:32,399 - INFO - ✅ Updated serial_number requirement for product_id 4116 (SAP: AGRAS-T100-P3)
+2025-09-25 22:13:33,021 - INFO - Processing SAP item: AGRAS-T100-P4
+2025-09-25 22:13:34,003 - INFO - ✅ Updated serial_number requirement for product_id 4117 (SAP: AGRAS-T100-P4)
+2025-09-25 22:13:34,633 - INFO - Processing SAP item: AGRAS-T10-BAT9K5
+2025-09-25 22:13:35,602 - INFO - ✅ Updated serial_number requirement for product_id 2171 (SAP: AGRAS-T10-BAT9K5)
+2025-09-25 22:13:36,228 - INFO - Processing SAP item: AGRAS-T10-CHG3K2
+2025-09-25 22:13:37,231 - INFO - ✅ Updated serial_number requirement for product_id 2172 (SAP: AGRAS-T10-CHG3K2)
+2025-09-25 22:13:37,874 - INFO - Processing SAP item: AGRAS-T10-SET1
+2025-09-25 22:13:38,865 - INFO - ✅ Updated serial_number requirement for product_id 2173 (SAP: AGRAS-T10-SET1)
+2025-09-25 22:13:39,489 - INFO - Processing SAP item: AGRAS-T10-SPREAD
+2025-09-25 22:13:40,497 - INFO - ✅ Updated serial_number requirement for product_id 2174 (SAP: AGRAS-T10-SPREAD)
+2025-09-25 22:13:41,142 - INFO - Processing SAP item: AGRAS-T16
+2025-09-25 22:13:42,163 - INFO - ✅ Updated serial_number requirement for product_id 1540 (SAP: AGRAS-T16)
+2025-09-25 22:13:42,793 - INFO - Processing SAP item: AGRAS-T16-BAT
+2025-09-25 22:13:43,804 - INFO - ✅ Updated serial_number requirement for product_id 1541 (SAP: AGRAS-T16-BAT)
+2025-09-25 22:13:44,428 - INFO - Processing SAP item: AGRAS-T16-BC
+2025-09-25 22:13:45,474 - INFO - ✅ Updated serial_number requirement for product_id 1542 (SAP: AGRAS-T16-BC)
+2025-09-25 22:13:46,114 - INFO - Processing SAP item: AGRAS-T25
+2025-09-25 22:13:48,491 - INFO - ✅ Updated serial_number requirement for product_id 3524 (SAP: AGRAS-T25)
+2025-09-25 22:13:49,108 - INFO - Processing SAP item: AGRAS-T25P
+2025-09-25 22:13:50,116 - INFO - ✅ Updated serial_number requirement for product_id 4119 (SAP: AGRAS-T25P)
+2025-09-25 22:13:50,745 - INFO - Processing SAP item: AGRAS-T25-P1
+2025-09-25 22:13:51,733 - INFO - ✅ Updated serial_number requirement for product_id 3532 (SAP: AGRAS-T25-P1)
+2025-09-25 22:13:52,363 - INFO - Processing SAP item: AGRAS-T25-P3
+2025-09-25 22:13:53,373 - INFO - ✅ Updated serial_number requirement for product_id 3534 (SAP: AGRAS-T25-P3)
+2025-09-25 22:13:53,997 - INFO - Processing SAP item: AGRAS-T25-P4
+2025-09-25 22:13:54,488 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-T25-P4
+2025-09-25 22:13:54,488 - INFO - Processing SAP item: AGRAS-T25P-P1
+2025-09-25 22:13:55,479 - INFO - ✅ Updated serial_number requirement for product_id 4120 (SAP: AGRAS-T25P-P1)
+2025-09-25 22:13:56,100 - INFO - Processing SAP item: AGRAS-T25P-P2
+2025-09-25 22:13:57,090 - INFO - ✅ Updated serial_number requirement for product_id 4121 (SAP: AGRAS-T25P-P2)
+2025-09-25 22:13:57,726 - INFO - Processing SAP item: AGRAS-T30
+2025-09-25 22:13:58,712 - INFO - ✅ Updated serial_number requirement for product_id 2175 (SAP: AGRAS-T30)
+2025-09-25 22:13:59,386 - INFO - Processing SAP item: AGRAS-T30-BAT29K
+2025-09-25 22:14:00,386 - INFO - ✅ Updated serial_number requirement for product_id 2176 (SAP: AGRAS-T30-BAT29K)
+2025-09-25 22:14:01,018 - INFO - Processing SAP item: AGRAS-T30-CGC7K2
+2025-09-25 22:14:02,013 - INFO - ✅ Updated serial_number requirement for product_id 2177 (SAP: AGRAS-T30-CGC7K2)
+2025-09-25 22:14:02,654 - INFO - Processing SAP item: AGRAS-T30-SET1
+2025-09-25 22:14:03,861 - INFO - ✅ Updated serial_number requirement for product_id 2178 (SAP: AGRAS-T30-SET1)
+2025-09-25 22:14:04,478 - INFO - Processing SAP item: AGRAS-T30-SPREAD
+2025-09-25 22:14:05,494 - INFO - ✅ Updated serial_number requirement for product_id 2179 (SAP: AGRAS-T30-SPREAD)
+2025-09-25 22:14:06,295 - INFO - Processing SAP item: AGRAS-T40
+2025-09-25 22:14:07,281 - INFO - ✅ Updated serial_number requirement for product_id 2750 (SAP: AGRAS-T40)
+2025-09-25 22:14:07,910 - INFO - Processing SAP item: AGRAS-T40-CGC7K2
+2025-09-25 22:14:08,930 - INFO - ✅ Updated serial_number requirement for product_id 3838 (SAP: AGRAS-T40-CGC7K2)
+2025-09-25 22:14:09,584 - INFO - Processing SAP item: AGRAS-T40-P1
+2025-09-25 22:14:10,605 - INFO - ✅ Updated serial_number requirement for product_id 2755 (SAP: AGRAS-T40-P1)
+2025-09-25 22:14:11,236 - INFO - Processing SAP item: AGRAS-T40-P2
+2025-09-25 22:14:12,232 - INFO - ✅ Updated serial_number requirement for product_id 2756 (SAP: AGRAS-T40-P2)
+2025-09-25 22:14:12,848 - INFO - Processing SAP item: AGRAS-T40-P8
+2025-09-25 22:14:13,859 - INFO - ✅ Updated serial_number requirement for product_id 3531 (SAP: AGRAS-T40-P8)
+2025-09-25 22:14:14,485 - INFO - Processing SAP item: AGRAS-T50
+2025-09-25 22:14:15,505 - INFO - ✅ Updated serial_number requirement for product_id 3525 (SAP: AGRAS-T50)
+2025-09-25 22:14:16,142 - INFO - Processing SAP item: AGRAS-T50-P1
+2025-09-25 22:14:17,149 - INFO - ✅ Updated serial_number requirement for product_id 3526 (SAP: AGRAS-T50-P1)
+2025-09-25 22:14:17,826 - INFO - Processing SAP item: AGRAS-T50-P13
+2025-09-25 22:14:18,324 - WARNING - ⚠️ Product not found in MySQL for SAP code: AGRAS-T50-P13
+2025-09-25 22:14:18,324 - INFO - Processing SAP item: AGRAS-T50-P3
+2025-09-25 22:14:19,314 - INFO - ✅ Updated serial_number requirement for product_id 3536 (SAP: AGRAS-T50-P3)
+2025-09-25 22:14:20,142 - INFO - Processing SAP item: AGRAS-T50-P4
+2025-09-25 22:14:21,128 - INFO - ✅ Updated serial_number requirement for product_id 3537 (SAP: AGRAS-T50-P4)
+2025-09-25 22:14:21,778 - INFO - Processing SAP item: AGRAS-T50-P5
+2025-09-25 22:14:22,755 - INFO - ✅ Updated serial_number requirement for product_id 3545 (SAP: AGRAS-T50-P5)
+2025-09-25 22:14:23,398 - INFO - Processing SAP item: AGREMO-CPS
+2025-09-25 22:14:24,383 - INFO - ✅ Updated serial_number requirement for product_id 2913 (SAP: AGREMO-CPS)
+2025-09-25 22:14:24,996 - INFO - Processing SAP item: AGREMO-FTI
+2025-09-25 22:14:26,006 - INFO - ✅ Updated serial_number requirement for product_id 2965 (SAP: AGREMO-FTI)
+2025-09-25 22:14:26,646 - INFO - Processing SAP item: AGT20
+2025-09-25 22:14:27,676 - INFO - ✅ Updated serial_number requirement for product_id 2001 (SAP: AGT20)
+2025-09-25 22:14:28,339 - INFO - 🎯 Serial number sync completed: 41 successful, 0 errors, 9 not found
+2025-09-25 22:14:28,683 - INFO - 📊 Serial Number Sync Rolling Update Analytics:
+2025-09-25 22:14:28,683 - INFO -    📦 Total items: 1537
+2025-09-25 22:14:28,683 - INFO -    📈 Coverage: 2.7% (41/1537)
+2025-09-25 22:14:28,684 - INFO -    🕐 Last 24h: 2.7% (41/1537)
+2025-09-25 22:14:28,684 - INFO -    📋 This run: 41 success, 0 errors
+2025-09-25 22:14:28,684 - INFO -    ⚙️  Mode: timestamp, Interval: 24h
+2025-09-25 22:15:36,867 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:15:36,867 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:15:36,955 - INFO - package: mysql.connector.plugins
+2025-09-25 22:15:36,956 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:15:36,957 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:15:36,957 - INFO - package: mysql.connector.plugins
+2025-09-25 22:15:36,957 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:15:36,957 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:15:37,324 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a783230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:15:37,324 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a98b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:15:37,324 - WARNING - No serial number items found or query failed
+2025-09-25 22:15:37,324 - WARNING - No serial number items found or query failed
+2025-09-25 22:15:37,324 - WARNING - No serial number items found or query failed
+2025-09-25 22:15:37,324 - WARNING - No serial number items found or query failed
+2025-09-25 22:15:37,324 - INFO - No serial number items found to sync
+2025-09-25 22:15:37,324 - INFO - No serial number items found to sync
+2025-09-25 22:26:21,120 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:26:21,207 - INFO - package: mysql.connector.plugins
+2025-09-25 22:26:21,207 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:26:21,208 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:26:21,515 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10906b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:26:21,515 - WARNING - No serial number items found or query failed
+2025-09-25 22:26:21,515 - WARNING - No serial number items found or query failed
+2025-09-25 22:26:21,515 - INFO - No serial number items found to sync
+2025-09-25 22:30:37,591 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:30:37,621 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:30:37,682 - INFO - package: mysql.connector.plugins
+2025-09-25 22:30:37,682 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:30:37,682 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:30:37,703 - INFO - package: mysql.connector.plugins
+2025-09-25 22:30:37,703 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:30:37,703 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:30:38,011 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108a1b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:30:38,011 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x109023230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:30:38,011 - WARNING - No serial number items found or query failed
+2025-09-25 22:30:38,011 - WARNING - No serial number items found or query failed
+2025-09-25 22:30:38,011 - WARNING - No serial number items found or query failed
+2025-09-25 22:30:38,011 - WARNING - No serial number items found or query failed
+2025-09-25 22:30:38,011 - INFO - No serial number items found to sync
+2025-09-25 22:30:38,011 - INFO - No serial number items found to sync
+2025-09-25 22:33:54,949 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:33:54,949 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:33:55,032 - INFO - package: mysql.connector.plugins
+2025-09-25 22:33:55,032 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:33:55,032 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:33:55,033 - INFO - package: mysql.connector.plugins
+2025-09-25 22:33:55,033 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:33:55,033 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:33:55,337 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106447230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:33:55,337 - WARNING - No serial number items found or query failed
+2025-09-25 22:33:55,337 - WARNING - No serial number items found or query failed
+2025-09-25 22:33:55,337 - INFO - No serial number items found to sync
+2025-09-25 22:33:55,347 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106afb230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:33:55,347 - WARNING - No serial number items found or query failed
+2025-09-25 22:33:55,347 - WARNING - No serial number items found or query failed
+2025-09-25 22:33:55,347 - INFO - No serial number items found to sync
+2025-09-25 22:34:05,396 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:05,396 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:05,481 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:05,481 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:05,481 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:05,488 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:05,488 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:05,488 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:05,781 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ac07230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:05,781 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:05,781 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:05,781 - INFO - No serial number items found to sync
+2025-09-25 22:34:05,808 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a37f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:05,808 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:05,808 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:05,808 - INFO - No serial number items found to sync
+2025-09-25 22:34:13,813 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:13,813 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:13,906 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:13,906 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:13,906 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:13,907 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:13,907 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:13,907 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:14,230 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106b8b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:14,230 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10859b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:14,230 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:14,230 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:14,230 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:14,230 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:14,230 - INFO - No serial number items found to sync
+2025-09-25 22:34:14,230 - INFO - No serial number items found to sync
+2025-09-25 22:34:24,241 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:24,241 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:24,323 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:24,323 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:24,323 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:24,331 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:24,331 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:24,331 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:24,635 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10afbb230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:24,635 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:24,635 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:24,635 - INFO - No serial number items found to sync
+2025-09-25 22:34:24,654 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108a33230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:24,654 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:24,654 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:24,654 - INFO - No serial number items found to sync
+2025-09-25 22:34:32,619 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:32,619 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:32,699 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:32,699 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:32,700 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:32,706 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:32,706 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:32,707 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:33,045 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10b313230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:33,045 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108f87230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:33,045 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:33,045 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:33,045 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:33,045 - INFO - No serial number items found to sync
+2025-09-25 22:34:33,045 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:33,045 - INFO - No serial number items found to sync
+2025-09-25 22:34:39,988 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:39,988 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:34:40,078 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:40,078 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:40,079 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:40,080 - INFO - package: mysql.connector.plugins
+2025-09-25 22:34:40,080 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:34:40,080 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:34:40,379 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x108a13230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:40,379 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:40,379 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:40,379 - INFO - No serial number items found to sync
+2025-09-25 22:34:40,402 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a6af230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:34:40,402 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:40,402 - WARNING - No serial number items found or query failed
+2025-09-25 22:34:40,402 - INFO - No serial number items found to sync
+2025-09-25 22:41:22,178 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:41:22,261 - INFO - package: mysql.connector.plugins
+2025-09-25 22:41:22,261 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:41:22,262 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:41:22,747 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106bbb230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:41:22,748 - WARNING - No serial number items found or query failed
+2025-09-25 22:41:22,748 - WARNING - No serial number items found or query failed
+2025-09-25 22:41:22,748 - INFO - No serial number items found to sync
+2025-09-25 22:48:34,270 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:34,270 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:34,359 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:34,359 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:34,360 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:34,361 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:34,361 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:34,361 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:34,703 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a3bf230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:34,703 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106a6f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:34,703 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:34,703 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:34,703 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:34,703 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:34,703 - INFO - No serial number items found to sync
+2025-09-25 22:48:34,703 - INFO - No serial number items found to sync
+2025-09-25 22:48:42,704 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:42,704 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:42,795 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:42,795 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:42,795 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:42,795 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:42,795 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:42,795 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:43,098 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10909b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:43,098 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10abb3230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:43,098 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:43,098 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:43,098 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:43,098 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:43,098 - INFO - No serial number items found to sync
+2025-09-25 22:48:43,098 - INFO - No serial number items found to sync
+2025-09-25 22:48:49,049 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:49,049 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:49,134 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:49,134 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:49,134 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:49,135 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:49,135 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:49,135 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:49,449 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106d2f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:49,449 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a557230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:49,449 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:49,449 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:49,449 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:49,449 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:49,449 - INFO - No serial number items found to sync
+2025-09-25 22:48:49,449 - INFO - No serial number items found to sync
+2025-09-25 22:48:54,398 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:54,399 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:48:54,483 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:54,484 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:54,484 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:54,485 - INFO - package: mysql.connector.plugins
+2025-09-25 22:48:54,485 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:48:54,485 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:48:54,786 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10918b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:54,786 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:54,786 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:54,786 - INFO - No serial number items found to sync
+2025-09-25 22:48:54,789 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1091fb230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:48:54,789 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:54,789 - WARNING - No serial number items found or query failed
+2025-09-25 22:48:54,789 - INFO - No serial number items found to sync
+2025-09-25 22:49:41,472 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:49:41,472 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:49:41,567 - INFO - package: mysql.connector.plugins
+2025-09-25 22:49:41,567 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:49:41,568 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:49:41,568 - INFO - package: mysql.connector.plugins
+2025-09-25 22:49:41,568 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:49:41,568 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:49:41,894 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10842b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:49:41,894 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10ae4b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:49:41,894 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:41,894 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:41,894 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:41,894 - INFO - No serial number items found to sync
+2025-09-25 22:49:41,894 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:41,894 - INFO - No serial number items found to sync
+2025-09-25 22:49:50,894 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:49:50,895 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:49:50,982 - INFO - package: mysql.connector.plugins
+2025-09-25 22:49:50,982 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:49:50,982 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:49:50,983 - INFO - package: mysql.connector.plugins
+2025-09-25 22:49:50,983 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:49:50,983 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:49:51,291 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1063b3230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:49:51,291 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:51,291 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:51,291 - INFO - No serial number items found to sync
+2025-09-25 22:49:51,294 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10664b230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:49:51,294 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:51,294 - WARNING - No serial number items found or query failed
+2025-09-25 22:49:51,294 - INFO - No serial number items found to sync
+2025-09-25 22:50:00,273 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:00,273 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:00,362 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:00,362 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:00,363 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:00,363 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:00,363 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:00,363 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:00,664 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10885f230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:00,664 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10adaf230>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:00,664 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:00,664 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:00,664 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:00,664 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:00,664 - INFO - No serial number items found to sync
+2025-09-25 22:50:00,664 - INFO - No serial number items found to sync
+2025-09-25 22:50:05,627 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:05,627 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:05,711 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:05,711 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:05,711 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:05,716 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:05,716 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:05,716 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:06,012 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10671f380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:06,012 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:06,012 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:06,012 - INFO - No serial number items found to sync
+2025-09-25 22:50:06,046 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a377380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:06,046 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:06,046 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:06,046 - INFO - No serial number items found to sync
+2025-09-25 22:50:13 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:13 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:14 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:14 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:14 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:14 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:14 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:14 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:14 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1069cf380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:14 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a5b7380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:14 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:14 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:14 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:14 - INFO - No serial number items found to sync
+2025-09-25 22:50:14 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:14 - INFO - No serial number items found to sync
+2025-09-25 22:50:19 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:19 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:19 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:19 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:19 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:19 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:19 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:19 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:19 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10634f380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:19 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10a313380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:19 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:19 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:19 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:19 - INFO - No serial number items found to sync
+2025-09-25 22:50:19 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:19 - INFO - No serial number items found to sync
+2025-09-25 22:50:30 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:30 - INFO - 🚀 Starting serial number requirement sync process...
+2025-09-25 22:50:30 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:30 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:30 - INFO - package: mysql.connector.plugins
+2025-09-25 22:50:30 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:30 - INFO - plugin_name: mysql_native_password
+2025-09-25 22:50:30 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-25 22:50:31 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x106a2f380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:31 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:31 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:31 - INFO - No serial number items found to sync
+2025-09-25 22:50:31 - ERROR - SAP Connection error: HTTPConnectionPool(host='dsbo01', port=8088): Max retries exceeded with url: /run-sql (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1068f7380>: Failed to resolve 'dsbo01' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-25 22:50:31 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:31 - WARNING - No serial number items found or query failed
+2025-09-25 22:50:31 - INFO - No serial number items found to sync
