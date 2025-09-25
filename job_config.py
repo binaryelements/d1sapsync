@@ -74,20 +74,26 @@ class JobConfig:
     @staticmethod
     def get_all_job_configs():
         """Get all job configurations"""
+        import logging
+        logger = logging.getLogger(__name__)
+
         configs = []
 
         # Add barcode sync if enabled
         barcode_config = JobConfig.get_barcode_sync_config()
+        logger.info(f"Barcode sync config: enabled={barcode_config['enabled']}")
         if barcode_config['enabled']:
             configs.append(barcode_config)
 
         # Add serial number sync if enabled
         serial_config = JobConfig.get_serial_number_sync_config()
+        logger.info(f"Serial sync config: enabled={serial_config['enabled']}")
         if serial_config['enabled']:
             configs.append(serial_config)
 
         # Add staff sync if enabled
         staff_config = JobConfig.get_staff_sync_config()
+        logger.info(f"Staff sync config: enabled={staff_config['enabled']}")
         if staff_config['enabled']:
             configs.append(staff_config)
 
@@ -96,4 +102,5 @@ class JobConfig:
         # if sample_config['enabled']:
         #     configs.append(sample_config)
 
+        logger.info(f"Total enabled job configs: {len(configs)}")
         return configs

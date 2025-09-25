@@ -365,13 +365,40 @@ def initialize_jobs():
     """Initialize all jobs from configuration"""
     from job_config import JobConfig
 
-    # Register all configured jobs
-    for config in JobConfig.get_all_job_configs():
-        job_manager.register_job(config)
+    logger = logging.getLogger(__name__)
+    logger.info("🔄 Initializing background jobs...")
 
-        # Auto-start jobs if configured
-        if config.get('auto_start', False):
-            job_manager.start_job(config['job_id'])
+    try:
+        # Get all job configurations
+        configs = JobConfig.get_all_job_configs()
+        logger.info(f"Found {len(configs)} job configurations")
+
+        if not configs:
+            logger.warning("⚠️ No job configurations found!")
+            logger.info("Environment variables:")
+            for key, value in os.environ.items():
+                if any(x in key for x in ['SYNC', 'JOB']):
+                    logger.info(f"  {key}={value}")
+            return
+
+        # Register all configured jobs
+        for config in configs:
+            logger.info(f"Registering job: {config['job_id']} - {config['name']}")
+            job_manager.register_job(config)
+
+            # Auto-start jobs if configured
+            if config.get('auto_start', False):
+                logger.info(f"Auto-starting job: {config['job_id']}")
+                job_manager.start_job(config['job_id'])
+            else:
+                logger.info(f"Job {config['job_id']} configured but not set to auto-start")
+
+        logger.info("✅ Background jobs initialization completed")
+
+    except Exception as e:
+        logger.error(f"❌ Error initializing jobs: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
 
 def get_job_manager():
     """Get the global job manager instance"""
