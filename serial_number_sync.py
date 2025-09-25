@@ -6,6 +6,7 @@ from mysql.connector import Error
 from dotenv import load_dotenv
 from datetime import datetime
 import logging
+from rolling_update_utils import ensure_rolling_update_columns, update_sync_timestamp, log_rolling_update_analytics
 
 # Load environment variables
 load_dotenv()
@@ -165,9 +166,15 @@ def sync_serial_number_requirements():
     """
     logger.info("🚀 Starting serial number requirement sync process...")
 
+    # Ensure table structure is ready for rolling updates
+    if not ensure_rolling_update_columns('product_associated_details', 'id'):
+        logger.error("❌ Table structure validation failed - aborting sync")
+        return
+
     # Get items requiring serial numbers from SAP
     serial_items = get_serial_number_items()
     if not serial_items:
+        logger.warning("No serial number items found or query failed")
         logger.info("No serial number items found to sync")
         return
 
@@ -190,11 +197,17 @@ def sync_serial_number_requirements():
 
         # Update product_associated_details
         if update_product_associated_details(product_id, sap_item_code):
+            # Update sync timestamp for rolling updates
+            update_sync_timestamp('product_associated_details', product_id, 'product_id')
             success_count += 1
         else:
             error_count += 1
 
     logger.info(f"🎯 Serial number sync completed: {success_count} successful, {error_count} errors, {not_found_count} not found")
+
+    # Log rolling update analytics
+    log_rolling_update_analytics('product_associated_details', 'Serial Number Sync', success_count, error_count,
+                                where_condition="fieldName = 'serial_number'", job_interval_var='SERIAL_SYNC_INTERVAL')
 
 if __name__ == "__main__":
     import sys

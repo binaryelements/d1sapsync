@@ -6,6 +6,7 @@ from mysql.connector import Error
 from dotenv import load_dotenv
 from datetime import datetime
 import logging
+from rolling_update_utils import ensure_rolling_update_columns, update_sync_timestamp, log_rolling_update_analytics
 
 # Load environment variables
 load_dotenv()
@@ -74,6 +75,40 @@ def get_sap_staff():
         logger.warning("No active staff found in SAP")
         return []
 
+def get_staff_to_sync():
+    """
+    Get staff that need syncing using rolling update logic
+    """
+    from rolling_update_utils import get_rolling_update_query
+
+    # Use rolling update query to get staff that need validation/sync
+    where_conditions = "sap_import_flag = 1"  # Only SAP-imported staff
+    query = get_rolling_update_query('app_users', where_conditions)
+
+    connection = get_mysql_connection()
+    if not connection:
+        return []
+
+    try:
+        cursor = connection.cursor(dictionary=True)
+        cursor.execute(query)
+        staff_records = cursor.fetchall()
+
+        if staff_records:
+            logger.info(f"Rolling update selected {len(staff_records)} staff records to validate")
+            for record in staff_records[:5]:  # Log first 5 for debugging
+                hours_since = record.get('hours_since_sync', 'N/A')
+                logger.debug(f"  Staff ID {record['id']}: last sync {hours_since} hours ago")
+
+        return staff_records
+    except Error as e:
+        logger.error(f"Error getting staff for rolling update: {e}")
+        return []
+    finally:
+        if connection.is_connected():
+            cursor.close()
+            connection.close()
+
 def parse_staff_name(full_name):
     """
     Parse full name into first and last name
@@ -93,6 +128,11 @@ def sync_staff():
     Only creates new records, leaves existing records untouched
     """
     logger.info("🚀 Starting staff sync process...")
+
+    # Ensure table structure is ready for rolling updates
+    if not ensure_rolling_update_columns('app_users', 'id'):
+        logger.error("❌ Table structure validation failed - aborting sync")
+        return
 
     # Get active staff from SAP
     sap_staff = get_sap_staff()
@@ -153,6 +193,9 @@ def sync_staff():
                         1, 1, 1  # active_flag=1, salesman_flag=1, sap_import_flag=1
                     ))
 
+                    # Update sync timestamp for rolling updates
+                    update_sync_timestamp('app_users', staff_id, 'id')
+
                     staff_inserted.append(f"---> Inserted ... {staff_name_full} id: {staff_id}")
                     logger.info(f"➕ Inserted new staff: {staff_name_full} (ID: {staff_id})")
                     success_count += 1
@@ -171,6 +214,10 @@ def sync_staff():
             logger.info(insert)
         logger.info("=" * 60)
         logger.info(f"🎯 Sync completed: {success_count} new records created, {skipped_count} existing records left unchanged, {error_count} errors")
+
+        # Log rolling update analytics
+        log_rolling_update_analytics('app_users', 'Staff Sync', success_count, error_count,
+                                    where_condition="sap_import_flag = 1", job_interval_var='STAFF_SYNC_INTERVAL')
 
     except Error as e:
         logger.error(f"Error during staff sync: {e}")
@@ -237,6 +284,10 @@ def sync_single_staff(staff_id):
                 sap_staff_id, first_name, last_name, email, password,
                 1, 1, 1  # active_flag=1, salesman_flag=1, sap_import_flag=1
             ))
+
+            # Update sync timestamp for rolling updates
+            update_sync_timestamp('app_users', sap_staff_id, 'id')
+
             logger.info(f"➕ Inserted new staff: {staff_name_full} (ID: {sap_staff_id})")
 
         connection.commit()
