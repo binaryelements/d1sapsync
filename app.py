@@ -15,6 +15,9 @@ app.secret_key = os.getenv('FLASK_SECRET_KEY', 'your-default-secret-key')
 WEB_USERNAME = os.getenv('WEB_USERNAME', 'admin')
 WEB_PASSWORD = os.getenv('WEB_PASSWORD', 'd1sapsync2024')
 
+# Initialize background jobs (must be after app creation for logging to work)
+initialize_jobs()
+
 def login_required(f):
     """Decorator to require login for protected routes"""
     def decorated_function(*args, **kwargs):
@@ -212,6 +215,4 @@ def jobs_page():
     return render_template('jobs.html', username=session.get('username'))
 
 if __name__ == '__main__':
-    # Initialize background jobs
-    initialize_jobs()
     app.run(debug=True, host='0.0.0.0', port=9000)
