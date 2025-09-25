@@ -31,6 +31,9 @@ RUN mkdir -p /app/logs
 # Expose port
 EXPOSE 9000
 
+# Simple healthcheck using Python
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:9000/api/jobs')" || exit 1
 
 # Default command - use gunicorn for production
 CMD ["gunicorn", "--bind", "0.0.0.0:9000", "--workers", "2", "--threads", "4", "--timeout", "120", "--access-logfile", "-", "--error-logfile", "-", "app:app"]
