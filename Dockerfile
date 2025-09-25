@@ -7,7 +7,6 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
-    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first to leverage Docker cache
@@ -32,9 +31,6 @@ RUN mkdir -p /app/logs
 # Expose port
 EXPOSE 9000
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
-    CMD curl -f http://localhost:9000/api/jobs || exit 1
 
 # Default command - use gunicorn for production
 CMD ["gunicorn", "--bind", "0.0.0.0:9000", "--workers", "2", "--threads", "4", "--timeout", "120", "--access-logfile", "-", "--error-logfile", "-", "app:app"]

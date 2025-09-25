@@ -45,12 +45,6 @@ services:
     volumes:
       - ./logs:/app/logs
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9000/api/jobs"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 30s
 
 networks:
   default:
