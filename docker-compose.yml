@@ -39,6 +39,14 @@ services:
       - SERIAL_SYNC_RESTART_DELAY=${SERIAL_SYNC_RESTART_DELAY:-60}
       - SERIAL_SYNC_MAX_RESTARTS=${SERIAL_SYNC_MAX_RESTARTS:-5}
 
+      # Rolling Update Configuration
+      - ROLLING_UPDATE_MODE=${ROLLING_UPDATE_MODE:-timestamp}
+      - SYNC_INTERVAL_HOURS=${SYNC_INTERVAL_HOURS:-24}
+      - FORCE_SYNC_DAYS=${FORCE_SYNC_DAYS:-7}
+      - ADAPTIVE_BATCH_SIZE=${ADAPTIVE_BATCH_SIZE:-false}
+      - MIN_BATCH_SIZE=${MIN_BATCH_SIZE:-10}
+      - MAX_BATCH_SIZE=${MAX_BATCH_SIZE:-100}
+
       # Production Settings
       - FLASK_ENV=production
       - FLASK_DEBUG=false

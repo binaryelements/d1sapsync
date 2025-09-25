@@ -60,9 +60,91 @@ def get_mysql_connection():
         logger.error(f"MySQL Connection Error: {e}")
         return None
 
+def ensure_table_structure():
+    """
+    Ensure products table has required columns for rolling updates
+    Auto-migrates if columns are missing
+    """
+    connection = get_mysql_connection()
+    if not connection:
+        logger.error("Cannot validate table structure - no database connection")
+        return False
+
+    try:
+        cursor = connection.cursor(dictionary=True)
+
+        # Check current table structure
+        cursor.execute("DESCRIBE products")
+        existing_columns = {row['Field']: row for row in cursor.fetchall()}
+
+        migrations_needed = []
+
+        # Check for last_sync_time column
+        if 'last_sync_time' not in existing_columns:
+            migrations_needed.append({
+                'column': 'last_sync_time',
+                'sql': 'ALTER TABLE products ADD COLUMN last_sync_time TIMESTAMP NULL DEFAULT NULL'
+            })
+
+        # Check for sync_version column
+        if 'sync_version' not in existing_columns:
+            migrations_needed.append({
+                'column': 'sync_version',
+                'sql': 'ALTER TABLE products ADD COLUMN sync_version INT DEFAULT 0'
+            })
+
+        # Run migrations if needed
+        if migrations_needed:
+            logger.info(f"🔧 Table migration needed - adding {len(migrations_needed)} column(s)")
+
+            for migration in migrations_needed:
+                logger.info(f"   Adding column: {migration['column']}")
+                cursor.execute(migration['sql'])
+
+            # Add/update index for rolling updates
+            try:
+                cursor.execute("SHOW INDEX FROM products WHERE Key_name = 'idx_rolling_sync'")
+                if not cursor.fetchall():
+                    logger.info("   Adding rolling sync index")
+                    cursor.execute("ALTER TABLE products ADD INDEX idx_rolling_sync (needs_sync, last_sync_time, sap_item_code)")
+            except Error as index_error:
+                logger.warning(f"Could not add index: {index_error}")
+
+            connection.commit()
+            logger.info("✅ Table migration completed successfully")
+
+            # Initialize existing records
+            logger.info("🔄 Initializing existing records for rolling updates")
+            cursor.execute("""
+                UPDATE products
+                SET sync_version = 0
+                WHERE sap_item_code IS NOT NULL
+                  AND sap_item_code != ''
+                  AND sync_version IS NULL
+            """)
+            initialized_count = cursor.rowcount
+            connection.commit()
+
+            if initialized_count > 0:
+                logger.info(f"   Initialized {initialized_count} existing records")
+        else:
+            logger.debug("✅ Table structure is up to date")
+
+        return True
+
+    except Error as e:
+        logger.error(f"❌ Table structure validation failed: {e}")
+        if connection:
+            connection.rollback()
+        return False
+    finally:
+        if connection and connection.is_connected():
+            cursor.close()
+            connection.close()
+
 def get_items_to_sync():
     """
-    Get items from MySQL that need barcode sync
+    Get items from MySQL that need barcode sync (with rolling update support)
     """
     connection = get_mysql_connection()
     if not connection:
@@ -71,22 +153,83 @@ def get_items_to_sync():
     try:
         cursor = connection.cursor(dictionary=True)
 
-        # Get batch size from environment
+        # Get configuration from environment
         batch_size = int(os.getenv('BATCH_SIZE', 50))
+        rolling_mode = os.getenv('ROLLING_UPDATE_MODE', 'timestamp')
+        sync_interval_hours = int(os.getenv('SYNC_INTERVAL_HOURS', 24))
 
-        # Get items with sap_item_code that need sync
-        query = f"""
-        SELECT id, sap_item_code, barcode, barcode1, barcode2, barcode3
-        FROM products
-        WHERE sap_item_code IS NOT NULL
-        AND sap_item_code != ''
-        AND needs_sync = 1
-        LIMIT {batch_size}
-        """
+        if rolling_mode == 'timestamp':
+            # Timestamp-based rolling updates
+            query = f"""
+            SELECT id, sap_item_code, barcode, barcode1, barcode2, barcode3,
+                   last_sync_time, sync_version,
+                   TIMESTAMPDIFF(HOUR, last_sync_time, NOW()) as hours_since_sync
+            FROM products
+            WHERE sap_item_code IS NOT NULL
+              AND sap_item_code != ''
+              AND (needs_sync = 1
+                   OR last_sync_time IS NULL
+                   OR last_sync_time < DATE_SUB(NOW(), INTERVAL {sync_interval_hours} HOUR))
+            ORDER BY needs_sync DESC, COALESCE(last_sync_time, '1970-01-01') ASC
+            LIMIT {batch_size}
+            """
+
+        elif rolling_mode == 'round_robin':
+            # Round-robin mode - cycle through all items
+            import time
+            current_hour = int(time.time() // 3600)  # Change batch every hour
+
+            # Get total count for offset calculation
+            cursor.execute("""
+                SELECT COUNT(*) as total
+                FROM products
+                WHERE sap_item_code IS NOT NULL AND sap_item_code != ''
+            """)
+            total_items = cursor.fetchone()['total']
+
+            if total_items > 0:
+                offset = (current_hour * batch_size) % total_items
+            else:
+                offset = 0
+
+            query = f"""
+            SELECT id, sap_item_code, barcode, barcode1, barcode2, barcode3,
+                   last_sync_time, sync_version,
+                   TIMESTAMPDIFF(HOUR, last_sync_time, NOW()) as hours_since_sync
+            FROM products
+            WHERE sap_item_code IS NOT NULL AND sap_item_code != ''
+            ORDER BY id
+            LIMIT {batch_size} OFFSET {offset}
+            """
+
+        else:
+            # Fallback to original mode
+            query = f"""
+            SELECT id, sap_item_code, barcode, barcode1, barcode2, barcode3,
+                   last_sync_time, sync_version, NULL as hours_since_sync
+            FROM products
+            WHERE sap_item_code IS NOT NULL
+              AND sap_item_code != ''
+              AND needs_sync = 1
+            LIMIT {batch_size}
+            """
 
         cursor.execute(query)
         items = cursor.fetchall()
-        logger.info(f"Found {len(items)} items to sync")
+
+        # Log rolling update info
+        if items:
+            priority_items = [item for item in items if item.get('needs_sync') == 1]
+            rolling_items = len(items) - len(priority_items)
+
+            logger.info(f"Found {len(items)} items to sync (mode: {rolling_mode})")
+            if priority_items:
+                logger.info(f"  📌 {len(priority_items)} priority items (needs_sync=1)")
+            if rolling_items:
+                logger.info(f"  🔄 {rolling_items} rolling update items (due for refresh)")
+        else:
+            logger.info("No items to sync")
+
         return items
 
     except Error as e:
@@ -171,10 +314,11 @@ def update_mysql_barcodes(item_id, barcodes):
         if len(barcodes) == 0:
             logger.info(f"Clearing all barcode fields for item ID {item_id}")
 
-        # Update the product
+        # Update the product with rolling update support
         update_query = """
         UPDATE products
-        SET barcode = %s, barcode1 = %s, barcode2 = %s, barcode3 = %s, needs_sync = 0
+        SET barcode = %s, barcode1 = %s, barcode2 = %s, barcode3 = %s,
+            needs_sync = 0, last_sync_time = NOW(), sync_version = sync_version + 1
         WHERE id = %s
         """
 
@@ -198,11 +342,93 @@ def update_mysql_barcodes(item_id, barcodes):
             cursor.close()
             connection.close()
 
+def log_sync_analytics(success_count, error_count):
+    """
+    Log rolling update analytics and statistics
+    """
+    connection = get_mysql_connection()
+    if not connection:
+        return
+
+    try:
+        cursor = connection.cursor(dictionary=True)
+
+        # Get comprehensive sync statistics
+        stats_query = """
+        SELECT
+            COUNT(*) as total_items,
+            SUM(CASE WHEN sap_item_code IS NOT NULL AND sap_item_code != '' THEN 1 ELSE 0 END) as items_with_sap_codes,
+            SUM(CASE WHEN needs_sync = 1 THEN 1 ELSE 0 END) as items_pending_sync,
+            SUM(CASE WHEN last_sync_time IS NOT NULL THEN 1 ELSE 0 END) as items_with_sync_history,
+            SUM(CASE WHEN last_sync_time > DATE_SUB(NOW(), INTERVAL 1 HOUR) THEN 1 ELSE 0 END) as synced_last_hour,
+            SUM(CASE WHEN last_sync_time > DATE_SUB(NOW(), INTERVAL 24 HOUR) THEN 1 ELSE 0 END) as synced_last_24h,
+            SUM(CASE WHEN last_sync_time > DATE_SUB(NOW(), INTERVAL 7 DAY) THEN 1 ELSE 0 END) as synced_last_7d,
+            AVG(CASE WHEN last_sync_time IS NOT NULL
+                THEN TIMESTAMPDIFF(HOUR, last_sync_time, NOW())
+                ELSE NULL END) as avg_hours_since_sync,
+            MAX(sync_version) as max_sync_version,
+            AVG(sync_version) as avg_sync_version
+        FROM products
+        WHERE sap_item_code IS NOT NULL AND sap_item_code != ''
+        """
+
+        cursor.execute(stats_query)
+        stats = cursor.fetchone()
+
+        if stats:
+            total_sap_items = stats['items_with_sap_codes'] or 0
+            pending = stats['items_pending_sync'] or 0
+            with_history = stats['items_with_sync_history'] or 0
+
+            # Calculate coverage percentages
+            coverage_pct = (with_history / total_sap_items * 100) if total_sap_items > 0 else 0
+            recent_coverage_24h = (stats['synced_last_24h'] / total_sap_items * 100) if total_sap_items > 0 else 0
+
+            logger.info("📊 Rolling Update Analytics:")
+            logger.info(f"   📦 Total SAP items: {total_sap_items}")
+            logger.info(f"   ⏳ Pending sync: {pending}")
+            logger.info(f"   📈 Coverage: {coverage_pct:.1f}% ({with_history}/{total_sap_items})")
+            logger.info(f"   🕐 Last 24h: {recent_coverage_24h:.1f}% ({stats['synced_last_24h']}/{total_sap_items})")
+
+            if stats['avg_hours_since_sync']:
+                logger.info(f"   ⏱️  Avg age: {stats['avg_hours_since_sync']:.1f} hours since sync")
+
+            if success_count > 0 or error_count > 0:
+                logger.info(f"   📋 This run: {success_count} success, {error_count} errors")
+
+            # Log efficiency metrics
+            rolling_mode = os.getenv('ROLLING_UPDATE_MODE', 'timestamp')
+            sync_interval_hours = int(os.getenv('SYNC_INTERVAL_HOURS', 24))
+
+            logger.info(f"   ⚙️  Mode: {rolling_mode}, Interval: {sync_interval_hours}h")
+
+            # Estimate time to full coverage (if in timestamp mode and we have data)
+            if rolling_mode == 'timestamp' and success_count > 0 and pending > 0:
+                batch_size = int(os.getenv('BATCH_SIZE', 50))
+                job_interval_minutes = int(os.getenv('BARCODE_SYNC_INTERVAL', 300)) / 60
+                estimated_runs = (pending + batch_size - 1) // batch_size  # Ceiling division
+                estimated_hours = (estimated_runs * job_interval_minutes) / 60
+
+                if estimated_hours < 24:
+                    logger.info(f"   🎯 Est. time to clear backlog: {estimated_hours:.1f} hours")
+
+    except Error as e:
+        logger.error(f"Error logging sync analytics: {e}")
+    finally:
+        if connection and connection.is_connected():
+            cursor.close()
+            connection.close()
+
 def sync_barcodes():
     """
     Main function to sync barcodes from SAP to MySQL
     """
     logger.info("🚀 Starting barcode sync process...")
+
+    # Ensure table structure is ready for rolling updates
+    if not ensure_table_structure():
+        logger.error("❌ Table structure validation failed - aborting sync")
+        return
 
     items = get_items_to_sync()
     if not items:
@@ -233,6 +459,9 @@ def sync_barcodes():
             error_count += 1
 
     logger.info(f"🎯 Sync completed: {success_count} successful, {error_count} errors")
+
+    # Log rolling update analytics
+    log_sync_analytics(success_count, error_count)
 
 def sync_single_item(sap_item_code):
     """
